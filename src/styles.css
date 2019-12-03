@@ -44,3 +44,22 @@ body.fade-out {
   outline: none;
   box-shadow: 0.2rem 0.8rem 1.6rem;
 }
+
+.login__button--submit {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.login__button--submit:hover {
+  border: 2px solid black;
+  letter-spacing: 1px;
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
