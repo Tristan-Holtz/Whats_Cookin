@@ -8,7 +8,18 @@ describe('Pantry', () => {
 
   beforeEach(() => {
     // user = new User(userData[0].id,userData[0].name);
-    pantry = new Pantry(1, "Carole Fay");
+    pantry = new Pantry(1, [{
+      "amount": 1,
+      "ingredient": 10514534
+    },
+    {
+      "amount": 2,
+      "ingredient": 14412
+    },
+    {
+      "amount": 1,
+      "ingredient": 98975
+    }]);
   });
 
   it('should be a function', () => {
@@ -35,6 +46,6 @@ describe('Pantry', () => {
     {
       "amount": 1,
       "ingredient": 98975
-    },]);
+    }]);
   });
 });
