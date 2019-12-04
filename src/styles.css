@@ -1,0 +1,99 @@
+/********GLOBAL********/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/********HEADER********/
+
+.header {
+  background-color: red;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.nav__btn {
+  color: white;
+  background-color: red;
+  border: 0px;
+  margin: 15px;
+  margin-left: 0px;
+  font-size: 24px;
+}
+
+.header__icon {
+  background-color: white;
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+}
+
+/********MAIN********/
+
+.main {
+  display: inline;
+}
+
+/********DASHBOARD********/
+
+.dashboard__section {
+  background: url('../img/kitchen-spices.jpeg') center/100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.dashboard__div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard__input--div {
+  margin: 120px;
+  margin-top: 180px;
+}
+
+.dashboard__input {
+  box-shadow: 5px 5px 5px gray;
+  height: 50px;
+  width: 420px;
+}
+
+.dashboard__div--search {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.dashboard__label {
+  color: black;
+  font-size: 24px;
+}
+
+/********RECIPES********/
+
+.recipes__section {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+  height: auto;
+  justify-items: center;
+  width: 100%;
+}
+
+.recipe__article--recipe {
+  background-color: #bfbcbb;
+  box-shadow: 5px 5px 5px gray;
+  height: 350px;
+  padding: 10px;
+  width: 300px;
+}
