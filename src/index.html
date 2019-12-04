@@ -7,6 +7,60 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
+    <header class='header'>
+      <div class='header__icon'></div>
+      <nav class='nav'>
+        <button class='nav__btn nav__btn--to-cook'>to cook</button>
+        <button class='nav__btn nav__btn--pantry'>Pantry</button>
+        <button class='nav__btn nav__btn--favorites'>Favorites</button>
+        <button class='nav__btn nav__btn--login'>Login</button>
+      </nav>
+    </header>
+    <main class='main'>
+      <section class='dashboard__section'>
+        <div class='dashboard__div'>
+          <div class='dashboard__input--div'>
+            <label class='dashboard__label dashboard__label--category'>Category:</label>
+            <input class='dashboard__input dashboard__input--category'></input>
+          </div>
+          <div class='dashboard__input--div'>
+            <label class='dashboard__label dashboard__label--ingredient'>Ingredient:</label>
+            <input class='dashboard__input dashboard__input--ingredient'></input>
+          </div>
+        </div>
+        <div class='dashboard__div--search'>
+          <label class='dashboard__label dashboard__div--label'>Search:</label>
+          <input class='dashboard__input dashboard__input--search'></input>
+        </div>
+      </section>
+      <section class='recipes__section'>
+        <article class='recipe__article--recipe'>
+          <div class='pic-spot'></div>
+          <h1>RECIPE 1</h1>
+          <p>jhfbrje  efjhbjebhfv  ejhbhf efh h efj efjhbvfh befjvfej bhvefj fejhv ejhr  jefhbv jefhbv</p>
+        </article>
+        <article class='recipe__article--recipe'>
+          <div class='pic-spot'></div>
+          <h1>RECIPE 2</h1>
+          <p>jhfbrje  efjhbjebhfv  ejhbhf efh h efj efjhbvfh befjvfej bhvefj fejhv ejhr  jefhbv jefhbv</p>
+        </article>
+        <article class='recipe__article--recipe'>
+          <div class='pic-spot'></div>
+          <h1>RECIPE 3</h1>
+          <p>jhfbrje  efjhbjebhfv  ejhbhf efh h efj efjhbvfh befjvfej bhvefj fejhv ejhr  jefhbv jefhbv</p>
+        </article>
+        <article class='recipe__article--recipe'>
+          <div class='pic-spot'></div>
+          <h1>RECIPE 4</h1>
+          <p>jhfbrje  efjhbjebhfv  ejhbhf efh h efj efjhbvfh befjvfej bhvefj fejhv ejhr  jefhbv jefhbv</p>
+        </article>
+        <article class='recipe__article--recipe'>
+          <div class='pic-spot'></div>
+          <h1>RECIPE 5</h1>
+          <p>jhfbrje  efjhbjebhfv  ejhbhf efh h efj efjhbvfh befjvfej bhvefj fejhv ejhr  jefhbv jefhbv</p>
+        </article>
+      </section>
+    </main>
     <form class="login">
       <label for="name" class="login__label">Please enter your name:</label>
       <input type="text" name="name" class="login__input">
