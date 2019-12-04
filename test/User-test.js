@@ -1,6 +1,5 @@
 const chai = require('chai');
 const expect = chai.expect;
-const userData = users-data.users;
 
 const User = require('../src/User');
 
@@ -8,7 +7,8 @@ describe('User', () => {
   let user;
 
   beforeEach(() => {
-    user = new User(userData[0].id,userData[0].name);
+    // user = new User(userData[0].id,userData[0].name);
+    user = new User(1, "Carole Fay");
   });
 
   it('should be a function', () => {
