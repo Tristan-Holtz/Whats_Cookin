@@ -4,6 +4,7 @@
     <link rel='stylesheet' type='text/css' href='styles.css'>
     <meta charset="UTF-8">
     <title>Whats Cookin</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class='header'>
@@ -60,7 +61,14 @@
         </article>
       </section>
     </main>
-
+    <form class="login">
+      <label for="name" class="login__label">Please enter your name:</label>
+      <input type="text" name="name" class="login__input">
+      <button class="login__button--submit">Submit</button>
+    </form>
+  </body>
+  <script>document.body.className += ' fade-out';</script>
+  <footer>
     <script type="text/javascript" src="Cookbook.js"></script>
     <script type="text/javascript" src="User.js"></script>
     <script type="text/javascript" src="Pantry.js"></script>
@@ -70,5 +78,5 @@
     <script type="text/javascript" src="../data/recipe-data.js"></script>
     <script type="text/javascript" src="../data/ingredient-data.js"></script>
     <script type="text/javascript" src="./scripts.js"></script>
-  </body>
+  </footer>
 </html>
