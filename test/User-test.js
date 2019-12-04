@@ -18,4 +18,20 @@ describe('User', () => {
   it('should be an instance of Round', () => {
     expect(user).to.be.an.instanceof(User);
   });
+
+  it('should start with the passed in ID', () => {
+    expect(user.id).to.equal(1);
+  });
+
+  it('should start with the name passed in', () => {
+    expect(user.name).to.equal("Carole Fay");
+  });
+
+  it('should start with an empty favorite recipe array', () => {
+    expect(user.favoriteRecipes).to.deep.equal([]);
+  });
+
+  it('should start with an empty recipe to cook array', () => {
+    expect(user.recipesToCook).to.deep.equal([]);
+  });
 });
