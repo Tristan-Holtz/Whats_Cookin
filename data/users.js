@@ -53254,3 +53254,7 @@ let users = [
     ]
   }
 ]
+
+if (typeof module !== 'undefined') {
+  module.exports = users;
+}
