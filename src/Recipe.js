@@ -23,7 +23,11 @@ class Recipe {
   };
 
   displayInstructions() {
-
+    return this.instructions.reduce((acc, instruction) => {
+      acc[instruction.number] = instruction.instruction
+      return acc;
+    }, {})
+  };
 }
 
 
