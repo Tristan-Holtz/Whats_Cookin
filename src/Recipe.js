@@ -1,19 +1,32 @@
+const ingredientData = require('../data/ingredients');
+
+
 class Recipe {
   constructor(recipe) {
     this.name = recipe.name;
-    this.id = recipe.id
+    this.id = recipe.id;
+    this.tag = recipe.tag;
     this.ingredients = recipe.ingredients;
     this.instructions = recipe.instructions;
   };
 
   calculateCost() {
-    return 'something';
+    return this.ingredients.reduce((acc, recipeIngredient) => {
+        ingredientData.forEach((ingredient) => {
+          if (ingredient.id === recipeIngredient.id) {
+            console.log(ingredient.name);
+            acc += ingredient.estimatedCostInCents;
+          }
+        })
+      return acc;
+    }, 0) / 100;
   };
 
   displayInstructions() {
-    return this.instructions;
-  };
+
 }
 
 
-module.exports = Recipe;
+if (typeof module !== 'undefined') {
+  module.exports = Recipe;
+}
