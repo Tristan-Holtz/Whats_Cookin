@@ -5916,3 +5916,7 @@ let recipeData = [
     ]
   }
 ]
+
+if (typeof module !== 'undefined') {
+  module.exports = recipeData;
+}
