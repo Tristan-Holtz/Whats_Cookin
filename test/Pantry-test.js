@@ -2,24 +2,13 @@ const chai = require('chai');
 const expect = chai.expect;
 
 const Pantry = require('../src/Pantry');
+const userData = require('../data/users');
 
 describe('Pantry', () => {
   let pantry;
 
   beforeEach(() => {
-    // user = new User(userData[0].id,userData[0].name);
-    pantry = new Pantry(1, [{
-      "amount": 1,
-      "ingredient": 10514534
-    },
-    {
-      "amount": 2,
-      "ingredient": 14412
-    },
-    {
-      "amount": 1,
-      "ingredient": 98975
-    }]);
+    pantry = new Pantry(userData[0].id, userData[0].pantry);
   });
 
   it('should be a function', () => {
@@ -35,17 +24,6 @@ describe('Pantry', () => {
   });
 
   it('should hold user pantry ingredients', () => {
-    expect(pantry.pantry).to.deep.equal([{
-      "amount": 1,
-      "ingredient": 10514534
-    },
-    {
-      "amount": 2,
-      "ingredient": 14412
-    },
-    {
-      "amount": 1,
-      "ingredient": 98975
-    }]);
+    expect(pantry.pantry).to.deep.equal(userData[0].pantry);
   });
 });
