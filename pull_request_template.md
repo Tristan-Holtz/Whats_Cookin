@@ -1,7 +1,7 @@
-#### What does this PR do?
-
-[TrelloCard/Issue/Story](LINK_TO_STORY)
-
-##### Why are we doing this? Any context or related work?
-
-#### Where should a reviewer start?
+#### What's this PR do?
+#### Where should the reviewer start?
+#### How should this be manually tested?
+#### Any background context you want to provide?
+#### What are the relevant tickets?
+#### Screenshots (if appropriate)
+#### Questions:
