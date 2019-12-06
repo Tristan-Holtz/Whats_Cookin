@@ -41,21 +41,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  opacity: 1; 
+  opacity: 1;
   transition: 1s opacity;
 }
 
-body.fade-out {
+/* body.fade-out {
   opacity: 0;
   transition: none;
-}
+} */
 
 .login {
   height: 100vh;
   display: none;
   flex-direction: column;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .login * {
@@ -151,7 +151,7 @@ body.fade-out {
 
 .recipes__section {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 25px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(13, 1fr);
   height: auto;
@@ -159,10 +159,59 @@ body.fade-out {
   width: 100%;
 }
 
-.recipe__article--recipe {
+.recipe__article {
   background-color: #bfbcbb;
   box-shadow: 5px 5px 5px gray;
-  height: 350px;
+  display: flex;
+  flex-direction: column;
+  height: 375px;
+  justify-content: space-between;
   padding: 10px;
-  width: 300px;
+  width: 330px;
+}
+
+.article__img {
+  border-radius: 5px;
+  cursor: pointer;
+  height: 70%;
+  width: 100%;
+}
+
+.article__h1 {
+  text-align: center;
+}
+
+.article__div {
+  display: flex;
+  height: 15%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.article__btn {
+  border-radius: 3px;
+  cursor: pointer;
+  height: 100%;
+  width: 45%;
+}
+
+/********RECIPE PAGE********/
+
+.main__section {
+  align-self: center;
+  background-color: white;
+  height: 80%;
+  margin: 0 0 8% 8%;
+  padding: 1%;
+  width: 85%;
+}
+
+.section__div--img-name {
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+.section__article--content {
+
 }
