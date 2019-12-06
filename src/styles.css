@@ -250,6 +250,11 @@ body {
   width: 50%;
 }
 
+#image {
+  height: 50px;
+  width: 50px;
+}
+
 /* 
 .section__div--img-name {
   display: flex;
