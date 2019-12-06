@@ -72,16 +72,24 @@ body {
 .login__input {
   height: 5%;
   width: 40%;
+}
+
+/* .login__input:focus {
+} */
+
+input {
   font-size: 2em;
   border: none;
   border-radius: 0.4rem;
   transition: box-shadow 300ms;
+  text-align: center;
 }
 
-.login__input:focus {
+input:focus {
   outline: none;
   box-shadow: 0.2rem 0.8rem 1.6rem;
 }
+
 
 .login__button--submit {
   font-size: 2em;
