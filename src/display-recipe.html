@@ -7,37 +7,31 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class='header'>
-      <div class='header__icon'></div>
-      <nav class='nav'>
-        <button class='nav__btn nav__btn--to-cook'>to cook</button>
-        <button class='nav__btn nav__btn--pantry'>Pantry</button>
-        <button class='nav__btn nav__btn--favorites'>Favorites</button>
-        <button class='nav__btn nav__btn--login'>Login</button>
-      </nav>
-    </header>
     <main class='main'>
-      <section class='main__section'>
-        <div class='section__div--img-name'>
-          <img class='article__img' src='https://spoonacular.com/recipeImages/595736-556x370.jpg'>
-          <div>
+      <section class='recipe'>
+        <section class='recipe__img'></section>
+        <div class='recipe--data'>
+          <div class='recipe--name'>
             <h1>RECIPE NAME</h1>
             <h2>Type:</h2>
+          </div>
+          <button class="recipe__button--favorite"></button>
+          <button class="recipe__button--cook"></button>
         </div>
-        <article class='section__article--content'>
-          <div class='article__div--ingredients'>
+        <article class='recipe__article--full'>
+          <div class='article--ingredients'>
             <h2>Ingredients:</h2>
             <p class='div__p--ingredients'></p>
           </div>
-          <div class='article__div--instructions'>
+          <div class='article--instructions'>
             <h2>Instructions:</h2>
             <p class='div__p--instructions'></p>
           </div>
         </article>
       </section>
+      <button class="recipe__button--close"></button>
     </main>
   </body>
-  <script>document.body.className += ' fade-out';</script>
   <footer>
     <script type="text/javascript" src="Cookbook.js"></script>
     <script type="text/javascript" src="User.js"></script>
