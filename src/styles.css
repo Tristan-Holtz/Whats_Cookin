@@ -7,6 +7,29 @@
   padding: 0;
 }
 
+input {
+  font-size: 2em;
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow 300ms;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/********LOGIN********/
+#login-link {
+  color: black;
+}
+
 /********HEADER********/
 
 .header {
@@ -41,18 +64,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  opacity: 1;
-  transition: 1s opacity;
 }
-
-/* body.fade-out {
-  opacity: 0;
-  transition: none;
-} */
 
 .login {
   height: 100vh;
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -72,16 +88,10 @@ body {
 .login__input {
   height: 5%;
   width: 40%;
-  font-size: 2em;
-  border: none;
-  border-radius: 0.4rem;
-  transition: box-shadow 300ms;
 }
 
-.login__input:focus {
-  outline: none;
-  box-shadow: 0.2rem 0.8rem 1.6rem;
-}
+/* .login__input:focus {
+} */
 
 .login__button--submit {
   font-size: 2em;
@@ -113,19 +123,11 @@ body {
 .dashboard__section {
   background: url('../img/kitchen-spices.jpeg') center/100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   margin-bottom: 10px;
   width: 100%;
-}
-
-.dashboard__div {
-  display: flex;
-  justify-content: space-around;
-}
-
-.dashboard__input--div {
-  margin: 120px;
-  margin-top: 180px;
+  height: 75vh;
 }
 
 .dashboard__input {
@@ -134,7 +136,7 @@ body {
   width: 420px;
 }
 
-.dashboard__div--search {
+.dashboard__section--search {
   align-self: center;
   display: flex;
   flex-direction: column;

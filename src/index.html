@@ -8,27 +8,21 @@
   </head>
   <body>
     <header class='header'>
-      <div class='header__icon'></div>
+      <div class='header__icon'></div> 
       <nav class='nav'>
-        <button class='nav__btn nav__btn--to-cook'>to cook</button>
+        <button class='nav__btn nav__btn--to-cook'>Cook</button>
         <button class='nav__btn nav__btn--pantry'>Pantry</button>
         <button class='nav__btn nav__btn--favorites'>Favorites</button>
-        <button class='nav__btn nav__btn--login'>Login</button>
+        <button class='nav__btn nav__btn--login'><a href="login.html">Login</a></button>
       </nav>
     </header>
     <main class='main'>
       <section class='dashboard__section'>
-        <div class='dashboard__div'>
-          <div class='dashboard__input--div'>
-            <label class='dashboard__label dashboard__label--category'>Category:</label>
-            <input class='dashboard__input dashboard__input--category'></input>
-          </div>
-          <div class='dashboard__input--div'>
-            <label class='dashboard__label dashboard__label--ingredient'>Ingredient:</label>
-            <input class='dashboard__input dashboard__input--ingredient'></input>
-          </div>
+        <div class='dashboard__section--search'>
+          <label class='dashboard__label dashboard__label--category'>Category:</label>
+          <input class='dashboard__input dashboard__input--category'></input>
         </div>
-        <div class='dashboard__div--search'>
+        <div class='dashboard__section--search'>
           <label class='dashboard__label dashboard__div--label'>Search:</label>
           <input class='dashboard__input dashboard__input--search'></input>
         </div>
@@ -36,13 +30,7 @@
       <section class='recipes__section'>
       </section>
     </main>
-    <form class="login">
-      <label for="name" class="login__label">Please enter your name:</label>
-      <input type="text" name="name" class="login__input">
-      <button class="login__button--submit">Submit</button>
-    </form>
   </body>
-  <script>document.body.className += ' fade-out';</script>
   <footer>
     <script type="text/javascript" src="Cookbook.js"></script>
     <script type="text/javascript" src="User.js"></script>
@@ -50,8 +38,8 @@
     <script type="text/javascript" src="Recipe.js"></script>
     <script type="text/javascript" src="../data/users.js"></script>
     <script type="text/javascript" src="../data/recipes.js"></script>
-    <script type="text/javascript" src="./scripts.js"></script>
     <script type="text/javascript" src="../data/ingredients.js"></script>
+    <script type="text/javascript" src="./scripts.js"></script>
     <script type="text/javascript" src="main.js"></script>
   </footer>
 </html>
