@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <meta charset="UTF-8">
+    <title>Whats Cookin</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main class='main'>
+      <section class='recipe'>
+        <section class='recipe__img'></section>
+        <div class='recipe--data'>
+          <div class='recipe--name'>
+            <h1>RECIPE NAME</h1>
+            <h2>Type:</h2>
+          </div>
+          <button class="recipe__button--favorite"><img id="image" src="../img/favorite.svg" /></button>
+          <button class="recipe__button--cook"><img id="image" src="../img/cook.svg" /></button>
+        </div>
+        <article class='recipe__article--full'>
+          <div class='article--ingredients'>
+            <h2>Ingredients:</h2>
+            <p class='div__p--ingredients'></p>
+          </div>
+          <div class='article--instructions'>
+            <h2>Instructions:</h2>
+            <p class='div__p--instructions'></p>
+          </div>
+        </article>
+      </section>
+      <button class="recipe__button--close"></button>
+    </main>
+  </body>
+  <footer>
+    <script type="text/javascript" src="Cookbook.js"></script>
+    <script type="text/javascript" src="User.js"></script>
+    <script type="text/javascript" src="Pantry.js"></script>
+    <script type="text/javascript" src="Recipe.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="../data/users.js"></script>
+    <script type="text/javascript" src="../data/ingredients.js"></script>
+    <script type="text/javascript" src="./scripts.js"></script>
+    <script type="text/javascript" src="../data/recipes.js"></script>
+  </footer>
+</html>
