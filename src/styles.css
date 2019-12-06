@@ -193,15 +193,64 @@ body {
 
 /********RECIPE PAGE********/
 
-.main__section {
-  align-self: center;
-  background-color: white;
-  height: 80%;
-  margin: 0 0 8% 8%;
-  padding: 1%;
-  width: 85%;
+.main {
+  display: block;
 }
 
+.recipe {
+  background-color: white;
+  display: grid;
+  margin: 3% 8% 3% 8%;
+  grid-template-areas: 
+  'img name'
+  'ins ins';
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1.5fr 2.5fr;
+  height: 80vh;
+}
+
+.recipe__img {
+  grid-area: img;
+  background: url('https://spoonacular.com/recipeImages/595736-556x370.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recipe--name {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.recipe__article--full {
+  grid-area: ins;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.recipe--data {
+  grid-area: name;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.recipe__button--favorite {
+  height: 50%;
+  width: 50%;
+}
+
+.recipe__button--cook {
+  height: 50%;
+  width: 50%;
+}
+
+/* 
 .section__div--img-name {
   display: flex;
   height: 50%;
@@ -214,4 +263,4 @@ body {
 
 .section__article--content {
   
-}
+} */
