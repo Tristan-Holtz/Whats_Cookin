@@ -7,6 +7,29 @@
   padding: 0;
 }
 
+input {
+  font-size: 2em;
+  border: none;
+  border-radius: 0.4rem;
+  transition: box-shadow 300ms;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/********LOGIN********/
+#login-link {
+  color: black;
+}
+
 /********HEADER********/
 
 .header {
@@ -76,20 +99,6 @@ body {
 
 /* .login__input:focus {
 } */
-
-input {
-  font-size: 2em;
-  border: none;
-  border-radius: 0.4rem;
-  transition: box-shadow 300ms;
-  text-align: center;
-}
-
-input:focus {
-  outline: none;
-  box-shadow: 0.2rem 0.8rem 1.6rem;
-}
-
 
 .login__button--submit {
   font-size: 2em;
