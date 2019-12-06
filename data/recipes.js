@@ -7,7 +7,7 @@ let recipeData = [
       {
         "name": "all purpose flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 1.5,
           "unit": "c"
         }
@@ -15,7 +15,7 @@ let recipeData = [
       {
         "name": "baking soda",
         "id": 18372,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tsp"
         }
@@ -23,7 +23,7 @@ let recipeData = [
       {
         "name": "egg",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "large"
         }
@@ -31,7 +31,7 @@ let recipeData = [
       {
         "name": "granulated sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "c"
         }
@@ -39,7 +39,7 @@ let recipeData = [
       {
         "name": "instant vanilla pudding mix",
         "id": 19206,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "Tbsp"
         }
@@ -47,7 +47,7 @@ let recipeData = [
       {
         "name": "light brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "c"
         }
@@ -55,7 +55,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tsp"
         }
@@ -63,7 +63,7 @@ let recipeData = [
       {
         "name": "sea salt",
         "id": 1012047,
-        "quanitity": {
+        "quantity": {
           "amount": 24,
           "unit": "servings"
         }
@@ -71,7 +71,7 @@ let recipeData = [
       {
         "name": "semisweet chocolate chips",
         "id": 10019903,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "c"
         }
@@ -79,7 +79,7 @@ let recipeData = [
       {
         "name": "unsalted butter",
         "id": 1145,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "c"
         }
@@ -87,7 +87,7 @@ let recipeData = [
       {
         "name": "vanilla extract",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tsp"
         }
@@ -136,7 +136,7 @@ let recipeData = [
       {
         "name": "apple cider",
         "id": 1009016,
-        "quanitity": {
+        "quantity": {
           "amount": 1.5,
           "unit": "cups"
         }
@@ -144,7 +144,7 @@ let recipeData = [
       {
         "name": "apples",
         "id": 9003,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": ""
         }
@@ -152,7 +152,7 @@ let recipeData = [
       {
         "name": "cornstarch",
         "id": 20027,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -160,7 +160,7 @@ let recipeData = [
       {
         "name": "dijon mustard",
         "id": 1002046,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -168,7 +168,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "clove"
         }
@@ -176,7 +176,7 @@ let recipeData = [
       {
         "name": "grainy mustard",
         "id": 1012046,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -184,7 +184,7 @@ let recipeData = [
       {
         "name": "maple syrup",
         "id": 19911,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -192,7 +192,7 @@ let recipeData = [
       {
         "name": "Miso Soybean Paste",
         "id": 16112,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -200,7 +200,7 @@ let recipeData = [
       {
         "name": "pork chops",
         "id": 10010062,
-        "quanitity": {
+        "quantity": {
           "amount": 24,
           "unit": "ounce"
         }
@@ -208,7 +208,7 @@ let recipeData = [
       {
         "name": "salt and pepper",
         "id": 1102047,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "servings"
         }
@@ -216,7 +216,7 @@ let recipeData = [
       {
         "name": "soy sauce",
         "id": 16124,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -224,7 +224,7 @@ let recipeData = [
       {
         "name": "sriracha",
         "id": 1016168,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -251,7 +251,7 @@ let recipeData = [
       {
         "name": "black pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "teaspoons"
         }
@@ -259,7 +259,7 @@ let recipeData = [
       {
         "name": "brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "tablespoons"
         }
@@ -267,7 +267,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -275,7 +275,7 @@ let recipeData = [
       {
         "name": "canola oil",
         "id": 4582,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "servings"
         }
@@ -283,7 +283,7 @@ let recipeData = [
       {
         "name": "cayenne pepper",
         "id": 2031,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "teaspoons"
         }
@@ -291,7 +291,7 @@ let recipeData = [
       {
         "name": "chicken wings",
         "id": 5100,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pound"
         }
@@ -299,7 +299,7 @@ let recipeData = [
       {
         "name": "chili powder",
         "id": 2009,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "teaspoons"
         }
@@ -307,7 +307,7 @@ let recipeData = [
       {
         "name": "garlic powder",
         "id": 1022020,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "teaspoons"
         }
@@ -315,7 +315,7 @@ let recipeData = [
       {
         "name": "hot sauce",
         "id": 6168,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "cups"
         }
@@ -323,7 +323,7 @@ let recipeData = [
       {
         "name": "mango",
         "id": 9176,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -331,7 +331,7 @@ let recipeData = [
       {
         "name": "onion powder",
         "id": 2026,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "teaspoons"
         }
@@ -339,7 +339,7 @@ let recipeData = [
       {
         "name": "seasoning salt",
         "id": 1042047,
-        "quanitity": {
+        "quantity": {
           "amount": 1.5,
           "unit": "tablespoons"
         }
@@ -347,7 +347,7 @@ let recipeData = [
       {
         "name": "seasoning salt",
         "id": 1042047,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "teaspoons"
         }
@@ -371,7 +371,7 @@ let recipeData = [
       {
         "name": "all purpose flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -379,7 +379,7 @@ let recipeData = [
       {
         "name": "baking powder",
         "id": 18371,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -387,7 +387,7 @@ let recipeData = [
       {
         "name": "bananas",
         "id": 9040,
-        "quanitity": {
+        "quantity": {
           "amount": 12,
           "unit": "servings"
         }
@@ -395,7 +395,7 @@ let recipeData = [
       {
         "name": "buckwheat flour",
         "id": 20011,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -403,7 +403,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -411,7 +411,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "tablespoons"
         }
@@ -419,7 +419,7 @@ let recipeData = [
       {
         "name": "buttermilk",
         "id": 1230,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -427,7 +427,7 @@ let recipeData = [
       {
         "name": "eggs",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": ""
         }
@@ -435,7 +435,7 @@ let recipeData = [
       {
         "name": "honey",
         "id": 19296,
-        "quanitity": {
+        "quantity": {
           "amount": 12,
           "unit": "servings"
         }
@@ -443,7 +443,7 @@ let recipeData = [
       {
         "name": "peanut butter",
         "id": 16098,
-        "quanitity": {
+        "quantity": {
           "amount": 12,
           "unit": "servings"
         }
@@ -451,7 +451,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -459,7 +459,7 @@ let recipeData = [
       {
         "name": "sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -507,7 +507,7 @@ let recipeData = [
       {
         "name": "apple cider vinegar",
         "id": 2048,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -515,7 +515,7 @@ let recipeData = [
       {
         "name": "baking powder",
         "id": 18371,
-        "quanitity": {
+        "quantity": {
           "amount": 0.3333333333333333,
           "unit": "teaspoon"
         }
@@ -523,7 +523,7 @@ let recipeData = [
       {
         "name": "brown rice flour",
         "id": 20090,
-        "quanitity": {
+        "quantity": {
           "amount": 1.125,
           "unit": "cup"
         }
@@ -531,7 +531,7 @@ let recipeData = [
       {
         "name": "brown rice syrup",
         "id": 93784,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -539,7 +539,7 @@ let recipeData = [
       {
         "name": "cooking oil",
         "id": 4582,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -547,7 +547,7 @@ let recipeData = [
       {
         "name": "egg whites",
         "id": 1124,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "large"
         }
@@ -555,7 +555,7 @@ let recipeData = [
       {
         "name": "evaporated cane juice",
         "id": 93625,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -563,7 +563,7 @@ let recipeData = [
       {
         "name": "flax seed meal",
         "id": 12220,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "Tablespoons"
         }
@@ -571,7 +571,7 @@ let recipeData = [
       {
         "name": "instant yeast",
         "id": 10118375,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -579,7 +579,7 @@ let recipeData = [
       {
         "name": "molasses",
         "id": 19304,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -587,7 +587,7 @@ let recipeData = [
       {
         "name": "potato starch",
         "id": 11413,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "cup"
         }
@@ -595,7 +595,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "teaspoon"
         }
@@ -603,7 +603,7 @@ let recipeData = [
       {
         "name": "tapioca starch",
         "id": 93696,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "cup"
         }
@@ -611,7 +611,7 @@ let recipeData = [
       {
         "name": "teff flour",
         "id": 93760,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -619,7 +619,7 @@ let recipeData = [
       {
         "name": "water",
         "id": 14412,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -627,7 +627,7 @@ let recipeData = [
       {
         "name": "xanthan gum",
         "id": 93626,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -685,7 +685,7 @@ let recipeData = [
       {
         "name": "baking powder",
         "id": 18371,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -693,7 +693,7 @@ let recipeData = [
       {
         "name": "corn syrup",
         "id": 19350,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -701,7 +701,7 @@ let recipeData = [
       {
         "name": "egg",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -709,7 +709,7 @@ let recipeData = [
       {
         "name": "egg whites",
         "id": 1124,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "large"
         }
@@ -717,7 +717,7 @@ let recipeData = [
       {
         "name": "flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -725,7 +725,7 @@ let recipeData = [
       {
         "name": "fruit cocktail",
         "id": 9099,
-        "quanitity": {
+        "quantity": {
           "amount": 15,
           "unit": "oz"
         }
@@ -733,7 +733,7 @@ let recipeData = [
       {
         "name": "granulated sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -741,7 +741,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pinch"
         }
@@ -749,7 +749,7 @@ let recipeData = [
       {
         "name": "vanilla extract",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -757,7 +757,7 @@ let recipeData = [
       {
         "name": "water",
         "id": 14412,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -789,7 +789,7 @@ let recipeData = [
       {
         "name": "almonds",
         "id": 12061,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -797,7 +797,7 @@ let recipeData = [
       {
         "name": "brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "tablespoons"
         }
@@ -805,7 +805,7 @@ let recipeData = [
       {
         "name": "coconut",
         "id": 12104,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -813,7 +813,7 @@ let recipeData = [
       {
         "name": "coconut cream",
         "id": 12115,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -821,7 +821,7 @@ let recipeData = [
       {
         "name": "coconut oil",
         "id": 4047,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "tablespoons"
         }
@@ -829,7 +829,7 @@ let recipeData = [
       {
         "name": "dark chocolate chips",
         "id": 10019071,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -837,7 +837,7 @@ let recipeData = [
       {
         "name": "granola",
         "id": 8212,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "Handful"
         }
@@ -845,7 +845,7 @@ let recipeData = [
       {
         "name": "maple syrup",
         "id": 19911,
-        "quanitity": {
+        "quantity": {
           "amount": 5,
           "unit": "tablespoons"
         }
@@ -853,7 +853,7 @@ let recipeData = [
       {
         "name": "oatmeal",
         "id": 8121,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "cups"
         }
@@ -861,7 +861,7 @@ let recipeData = [
       {
         "name": "pecans",
         "id": 12142,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -869,7 +869,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -877,7 +877,7 @@ let recipeData = [
       {
         "name": "vanilla extract",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -921,7 +921,7 @@ let recipeData = [
       {
         "name": "all purpose flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 160,
           "unit": "g"
         }
@@ -929,7 +929,7 @@ let recipeData = [
       {
         "name": "almond meal",
         "id": 93740,
-        "quanitity": {
+        "quantity": {
           "amount": 40,
           "unit": "g"
         }
@@ -937,7 +937,7 @@ let recipeData = [
       {
         "name": "egg yolk",
         "id": 1125,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -945,7 +945,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pinch"
         }
@@ -953,7 +953,7 @@ let recipeData = [
       {
         "name": "sesame seeds",
         "id": 12023,
-        "quanitity": {
+        "quantity": {
           "amount": 40,
           "unit": "g"
         }
@@ -961,7 +961,7 @@ let recipeData = [
       {
         "name": "sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 80,
           "unit": "g"
         }
@@ -969,7 +969,7 @@ let recipeData = [
       {
         "name": "unsalted butter",
         "id": 1145,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "stick"
         }
@@ -1018,7 +1018,7 @@ let recipeData = [
       {
         "name": "brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -1026,7 +1026,7 @@ let recipeData = [
       {
         "name": "brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "tablespoons"
         }
@@ -1034,7 +1034,7 @@ let recipeData = [
       {
         "name": "canola oil",
         "id": 4582,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -1042,7 +1042,7 @@ let recipeData = [
       {
         "name": "canola oil",
         "id": 4582,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -1050,7 +1050,7 @@ let recipeData = [
       {
         "name": "chicken tenders",
         "id": 1015062,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pound"
         }
@@ -1058,7 +1058,7 @@ let recipeData = [
       {
         "name": "coleslaw mix",
         "id": 10011109,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "cups"
         }
@@ -1066,7 +1066,7 @@ let recipeData = [
       {
         "name": "creamy peanut butter",
         "id": 10116098,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -1074,7 +1074,7 @@ let recipeData = [
       {
         "name": "fresh mint",
         "id": 2064,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -1082,7 +1082,7 @@ let recipeData = [
       {
         "name": "ground ginger",
         "id": 2021,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -1090,7 +1090,7 @@ let recipeData = [
       {
         "name": "lime juice",
         "id": 9160,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -1098,7 +1098,7 @@ let recipeData = [
       {
         "name": "pineapple",
         "id": 9266,
-        "quanitity": {
+        "quantity": {
           "amount": 1.25,
           "unit": "cups"
         }
@@ -1106,7 +1106,7 @@ let recipeData = [
       {
         "name": "soy sauce",
         "id": 16124,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -1114,7 +1114,7 @@ let recipeData = [
       {
         "name": "sriracha",
         "id": 1016168,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tablespoon"
         }
@@ -1122,7 +1122,7 @@ let recipeData = [
       {
         "name": "sriracha sauce",
         "id": 1016168,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -1177,7 +1177,7 @@ let recipeData = [
       {
         "name": "cauliflower",
         "id": 11135,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "large head"
         }
@@ -1185,7 +1185,7 @@ let recipeData = [
       {
         "name": "chicken stock",
         "id": 6172,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -1193,7 +1193,7 @@ let recipeData = [
       {
         "name": "dijon mustard",
         "id": 1002046,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tbsp"
         }
@@ -1201,7 +1201,7 @@ let recipeData = [
       {
         "name": "eggs",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": ""
         }
@@ -1209,7 +1209,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cloves"
         }
@@ -1217,7 +1217,7 @@ let recipeData = [
       {
         "name": "ghee",
         "id": 93632,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -1225,7 +1225,7 @@ let recipeData = [
       {
         "name": "hazelnuts",
         "id": 12120,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -1233,7 +1233,7 @@ let recipeData = [
       {
         "name": "nutritional yeast",
         "id": 93690,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tbsp"
         }
@@ -1241,7 +1241,7 @@ let recipeData = [
       {
         "name": "onion",
         "id": 11282,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "small"
         }
@@ -1249,7 +1249,7 @@ let recipeData = [
       {
         "name": "pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tsp"
         }
@@ -1257,7 +1257,7 @@ let recipeData = [
       {
         "name": "prosciutto",
         "id": 10010123,
-        "quanitity": {
+        "quantity": {
           "amount": 5,
           "unit": "slices"
         }
@@ -1265,7 +1265,7 @@ let recipeData = [
       {
         "name": "rapini",
         "id": 11096,
-        "quanitity": {
+        "quantity": {
           "amount": 200,
           "unit": "g"
         }
@@ -1273,7 +1273,7 @@ let recipeData = [
       {
         "name": "sea salt",
         "id": 1012047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tsp"
         }
@@ -1312,7 +1312,7 @@ let recipeData = [
       {
         "name": "bbq sauce",
         "id": 6150,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -1320,7 +1320,7 @@ let recipeData = [
       {
         "name": "brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tbsp"
         }
@@ -1328,7 +1328,7 @@ let recipeData = [
       {
         "name": "chicken broth",
         "id": 6194,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -1336,7 +1336,7 @@ let recipeData = [
       {
         "name": "garlic cloves",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "large"
         }
@@ -1344,7 +1344,7 @@ let recipeData = [
       {
         "name": "liquid smoke",
         "id": 93627,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "tbsp"
         }
@@ -1352,7 +1352,7 @@ let recipeData = [
       {
         "name": "onion",
         "id": 11282,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "large"
         }
@@ -1360,7 +1360,7 @@ let recipeData = [
       {
         "name": "paprika",
         "id": 2028,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "servings"
         }
@@ -1368,7 +1368,7 @@ let recipeData = [
       {
         "name": "pork shoulder roast",
         "id": 10072,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "lbs"
         }
@@ -1376,7 +1376,7 @@ let recipeData = [
       {
         "name": "salt and pepper",
         "id": 1102047,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "servings"
         }
@@ -1384,7 +1384,7 @@ let recipeData = [
       {
         "name": "worcestershire sauce",
         "id": 6971,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tbsp"
         }
@@ -1427,7 +1427,7 @@ let recipeData = [
       {
         "name": "almond milk",
         "id": 93607,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -1435,7 +1435,7 @@ let recipeData = [
       {
         "name": "banana",
         "id": 9040,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "small"
         }
@@ -1443,7 +1443,7 @@ let recipeData = [
       {
         "name": "graham cracker pie crust",
         "id": 18942,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "Tbsp"
         }
@@ -1451,7 +1451,7 @@ let recipeData = [
       {
         "name": "ground cinnamon",
         "id": 1012010,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "tsp"
         }
@@ -1459,7 +1459,7 @@ let recipeData = [
       {
         "name": "ground ginger",
         "id": 2021,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pinch"
         }
@@ -1467,7 +1467,7 @@ let recipeData = [
       {
         "name": "ground nutmeg",
         "id": 2025,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pinch"
         }
@@ -1475,7 +1475,7 @@ let recipeData = [
       {
         "name": "low fat cream cheese",
         "id": 43274,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "oz"
         }
@@ -1483,7 +1483,7 @@ let recipeData = [
       {
         "name": "oats",
         "id": 8120,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -1491,7 +1491,7 @@ let recipeData = [
       {
         "name": "pumpkin puree",
         "id": 11424,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -1517,7 +1517,7 @@ let recipeData = [
       {
         "name": "apple juice",
         "id": 9016,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "Tablespoons"
         }
@@ -1525,7 +1525,7 @@ let recipeData = [
       {
         "name": "brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -1533,7 +1533,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "Tablespoon"
         }
@@ -1541,7 +1541,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "Tablespoons"
         }
@@ -1549,7 +1549,7 @@ let recipeData = [
       {
         "name": "cinnamon raisin bread",
         "id": 18047,
-        "quanitity": {
+        "quantity": {
           "amount": 16,
           "unit": "ounce"
         }
@@ -1557,7 +1557,7 @@ let recipeData = [
       {
         "name": "eggs",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 10,
           "unit": "large"
         }
@@ -1565,7 +1565,7 @@ let recipeData = [
       {
         "name": "granny smith apples",
         "id": 1089003,
-        "quanitity": {
+        "quantity": {
           "amount": 5,
           "unit": "medium"
         }
@@ -1573,7 +1573,7 @@ let recipeData = [
       {
         "name": "granulated sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "Tablespoons"
         }
@@ -1581,7 +1581,7 @@ let recipeData = [
       {
         "name": "ground cinnamon",
         "id": 1012010,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -1589,7 +1589,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -1597,7 +1597,7 @@ let recipeData = [
       {
         "name": "whole milk",
         "id": 1077,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "cups"
         }
@@ -1649,7 +1649,7 @@ let recipeData = [
       {
         "name": "black pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -1657,7 +1657,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "tablespoons"
         }
@@ -1665,7 +1665,7 @@ let recipeData = [
       {
         "name": "fresh parsley",
         "id": 11297,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -1673,7 +1673,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "cloves"
         }
@@ -1681,7 +1681,7 @@ let recipeData = [
       {
         "name": "red pepper flakes",
         "id": 1032009,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pinch"
         }
@@ -1689,7 +1689,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -1697,7 +1697,7 @@ let recipeData = [
       {
         "name": "shrimp",
         "id": 15152,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "pounds"
         }
@@ -1705,7 +1705,7 @@ let recipeData = [
       {
         "name": "sweet onion",
         "id": 11294,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "medium"
         }
@@ -1740,7 +1740,7 @@ let recipeData = [
       {
         "name": "artichokes",
         "id": 11007,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "large"
         }
@@ -1748,7 +1748,7 @@ let recipeData = [
       {
         "name": "lemon",
         "id": 9150,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "slices"
         }
@@ -1756,7 +1756,7 @@ let recipeData = [
       {
         "name": "lemon zest",
         "id": 9156,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -1764,7 +1764,7 @@ let recipeData = [
       {
         "name": "white bread",
         "id": 18069,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "slices"
         }
@@ -1772,7 +1772,7 @@ let recipeData = [
       {
         "name": "parmesan cheese",
         "id": 1033,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -1780,7 +1780,7 @@ let recipeData = [
       {
         "name": "parsley",
         "id": 11297,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -1788,7 +1788,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "cloves"
         }
@@ -1796,7 +1796,7 @@ let recipeData = [
       {
         "name": "oregano",
         "id": 2027,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -1804,7 +1804,7 @@ let recipeData = [
       {
         "name": "extra virgin olive oil",
         "id": 1034053,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -1812,7 +1812,7 @@ let recipeData = [
       {
         "name": "black pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 0.125,
           "unit": "teaspoon"
         }
@@ -1820,7 +1820,7 @@ let recipeData = [
       {
         "name": "bay leaf",
         "id": 2004,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -1828,7 +1828,7 @@ let recipeData = [
       {
         "name": "lemon",
         "id": 9150,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "slices"
         }
@@ -1836,7 +1836,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cloves"
         }
@@ -1870,7 +1870,7 @@ let recipeData = [
       {
         "name": "baking soda",
         "id": 18372,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tsp"
         }
@@ -1878,7 +1878,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -1886,7 +1886,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -1894,7 +1894,7 @@ let recipeData = [
       {
         "name": "creamy peanut butter",
         "id": 10116098,
-        "quanitity": {
+        "quantity": {
           "amount": 0.3333333333333333,
           "unit": "cup"
         }
@@ -1902,7 +1902,7 @@ let recipeData = [
       {
         "name": "creamy peanut butter",
         "id": 10116098,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -1910,7 +1910,7 @@ let recipeData = [
       {
         "name": "egg",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -1918,7 +1918,7 @@ let recipeData = [
       {
         "name": "flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 1.25,
           "unit": "cup"
         }
@@ -1926,7 +1926,7 @@ let recipeData = [
       {
         "name": "granulated sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -1934,7 +1934,7 @@ let recipeData = [
       {
         "name": "light brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -1942,7 +1942,7 @@ let recipeData = [
       {
         "name": "powdered sugar",
         "id": 19336,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -1950,7 +1950,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tsp"
         }
@@ -1958,7 +1958,7 @@ let recipeData = [
       {
         "name": "semisweet chocolate chips",
         "id": 10019903,
-        "quanitity": {
+        "quantity": {
           "amount": 1.5,
           "unit": "cups"
         }
@@ -1966,7 +1966,7 @@ let recipeData = [
       {
         "name": "vanilla",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "Tbsp"
         }
@@ -2030,7 +2030,7 @@ let recipeData = [
       {
         "name": "celery",
         "id": 11143,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2038,7 +2038,7 @@ let recipeData = [
       {
         "name": "dijon mustard",
         "id": 1002046,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -2046,7 +2046,7 @@ let recipeData = [
       {
         "name": "hard cooked eggs",
         "id": 1129,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": ""
         }
@@ -2054,7 +2054,7 @@ let recipeData = [
       {
         "name": "light mayonnaise",
         "id": 4641,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2062,7 +2062,7 @@ let recipeData = [
       {
         "name": "nonfat greek yogurt",
         "id": 1011256,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2070,7 +2070,7 @@ let recipeData = [
       {
         "name": "onion powder",
         "id": 2026,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -2078,7 +2078,7 @@ let recipeData = [
       {
         "name": "parsley",
         "id": 11297,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2086,7 +2086,7 @@ let recipeData = [
       {
         "name": "pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -2094,7 +2094,7 @@ let recipeData = [
       {
         "name": "pickle relish",
         "id": 11944,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "tablespoons"
         }
@@ -2102,7 +2102,7 @@ let recipeData = [
       {
         "name": "red onions",
         "id": 10011282,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2110,7 +2110,7 @@ let recipeData = [
       {
         "name": "russet potatoes",
         "id": 11353,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "pounds"
         }
@@ -2118,7 +2118,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "teaspoons"
         }
@@ -2126,7 +2126,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -2170,7 +2170,7 @@ let recipeData = [
       {
         "name": "bell peppers",
         "id": 10211821,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "large"
         }
@@ -2178,7 +2178,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cloves"
         }
@@ -2186,7 +2186,7 @@ let recipeData = [
       {
         "name": "instant brown rice",
         "id": 10020048,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2194,7 +2194,7 @@ let recipeData = [
       {
         "name": "italian cheese",
         "id": 93651,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cups"
         }
@@ -2202,7 +2202,7 @@ let recipeData = [
       {
         "name": "italian turkey sausage",
         "id": 7927,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "lb"
         }
@@ -2210,7 +2210,7 @@ let recipeData = [
       {
         "name": "onion",
         "id": 11282,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "small"
         }
@@ -2218,7 +2218,7 @@ let recipeData = [
       {
         "name": "oregano leaves",
         "id": 2027,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tsp"
         }
@@ -2226,7 +2226,7 @@ let recipeData = [
       {
         "name": "parmesan cheese",
         "id": 1033,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "Tbsp"
         }
@@ -2234,7 +2234,7 @@ let recipeData = [
       {
         "name": "pizza sauce",
         "id": 11549,
-        "quanitity": {
+        "quantity": {
           "amount": 14,
           "unit": "oz"
         }
@@ -2274,7 +2274,7 @@ let recipeData = [
       {
         "name": "bread flour",
         "id": 10120129,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -2282,7 +2282,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2290,7 +2290,7 @@ let recipeData = [
       {
         "name": "flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 3.5,
           "unit": "cups"
         }
@@ -2298,7 +2298,7 @@ let recipeData = [
       {
         "name": "heavy cream",
         "id": 1053,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2306,7 +2306,7 @@ let recipeData = [
       {
         "name": "honey",
         "id": 19296,
-        "quanitity": {
+        "quantity": {
           "amount": 0.3333333333333333,
           "unit": "cup"
         }
@@ -2314,7 +2314,7 @@ let recipeData = [
       {
         "name": "instant yeast",
         "id": 10118375,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -2322,7 +2322,7 @@ let recipeData = [
       {
         "name": "instant yeast",
         "id": 10118375,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2330,7 +2330,7 @@ let recipeData = [
       {
         "name": "milk",
         "id": 1077,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -2338,7 +2338,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 16,
           "unit": "servings"
         }
@@ -2346,7 +2346,7 @@ let recipeData = [
       {
         "name": "rolled oats",
         "id": 8120,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2354,7 +2354,7 @@ let recipeData = [
       {
         "name": "rolled oats",
         "id": 8120,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2362,7 +2362,7 @@ let recipeData = [
       {
         "name": "sea salt",
         "id": 1012047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -2370,7 +2370,7 @@ let recipeData = [
       {
         "name": "water",
         "id": 14412,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -2415,7 +2415,7 @@ let recipeData = [
       {
         "name": "agave",
         "id": 19912,
-        "quanitity": {
+        "quantity": {
           "amount": 168,
           "unit": "g"
         }
@@ -2423,7 +2423,7 @@ let recipeData = [
       {
         "name": "baking powder",
         "id": 18371,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "g"
         }
@@ -2431,7 +2431,7 @@ let recipeData = [
       {
         "name": "cornstarch",
         "id": 20027,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "g"
         }
@@ -2439,7 +2439,7 @@ let recipeData = [
       {
         "name": "dark chocolate chips",
         "id": 10019071,
-        "quanitity": {
+        "quantity": {
           "amount": 42,
           "unit": "g"
         }
@@ -2447,7 +2447,7 @@ let recipeData = [
       {
         "name": "ground cinnamon",
         "id": 1012010,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "g"
         }
@@ -2455,7 +2455,7 @@ let recipeData = [
       {
         "name": "pumpkin puree",
         "id": 11424,
-        "quanitity": {
+        "quantity": {
           "amount": 183,
           "unit": "g"
         }
@@ -2463,7 +2463,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "g"
         }
@@ -2471,7 +2471,7 @@ let recipeData = [
       {
         "name": "unsalted butter",
         "id": 1145,
-        "quanitity": {
+        "quantity": {
           "amount": 28,
           "unit": "g"
         }
@@ -2479,7 +2479,7 @@ let recipeData = [
       {
         "name": "vanilla extract",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 5,
           "unit": "mL"
         }
@@ -2487,7 +2487,7 @@ let recipeData = [
       {
         "name": "whole wheat pastry flour",
         "id": 10020080,
-        "quanitity": {
+        "quantity": {
           "amount": 120,
           "unit": "g"
         }
@@ -2519,7 +2519,7 @@ let recipeData = [
       {
         "name": "cornstarch",
         "id": 20027,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2527,7 +2527,7 @@ let recipeData = [
       {
         "name": "dark brown sugar",
         "id": 10019334,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2535,7 +2535,7 @@ let recipeData = [
       {
         "name": "heavy cream",
         "id": 1053,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2543,7 +2543,7 @@ let recipeData = [
       {
         "name": "lightly sweetened whipped cream",
         "id": 93814,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "servings"
         }
@@ -2551,7 +2551,7 @@ let recipeData = [
       {
         "name": "unsalted butter",
         "id": 1145,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2559,7 +2559,7 @@ let recipeData = [
       {
         "name": "vanilla extract",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -2567,7 +2567,7 @@ let recipeData = [
       {
         "name": "whole milk",
         "id": 1077,
-        "quanitity": {
+        "quantity": {
           "amount": 1.5,
           "unit": "cups"
         }
@@ -2599,7 +2599,7 @@ let recipeData = [
       {
         "name": "cucumber",
         "id": 11206,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "large"
         }
@@ -2607,7 +2607,7 @@ let recipeData = [
       {
         "name": "curly leaf parsley",
         "id": 11297,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "bunch"
         }
@@ -2615,7 +2615,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "cloves"
         }
@@ -2623,7 +2623,7 @@ let recipeData = [
       {
         "name": "lemon",
         "id": 9150,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "large"
         }
@@ -2631,7 +2631,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -2639,7 +2639,7 @@ let recipeData = [
       {
         "name": "quinoa",
         "id": 20035,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -2647,7 +2647,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tsp"
         }
@@ -2655,7 +2655,7 @@ let recipeData = [
       {
         "name": "tomato",
         "id": 11529,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "large"
         }
@@ -2691,7 +2691,7 @@ let recipeData = [
       {
         "name": "cranberry juice cocktail",
         "id": 14242,
-        "quanitity": {
+        "quantity": {
           "amount": 0.6666666666666666,
           "unit": "cup"
         }
@@ -2699,7 +2699,7 @@ let recipeData = [
       {
         "name": "cream soda",
         "id": 14130,
-        "quanitity": {
+        "quantity": {
           "amount": 0.6666666666666666,
           "unit": "cup"
         }
@@ -2707,7 +2707,7 @@ let recipeData = [
       {
         "name": "gelatin",
         "id": 19177,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "envelopes"
         }
@@ -2715,7 +2715,7 @@ let recipeData = [
       {
         "name": "heavy cream",
         "id": 1053,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tbsp"
         }
@@ -2723,7 +2723,7 @@ let recipeData = [
       {
         "name": "sprinkles",
         "id": 93645,
-        "quanitity": {
+        "quantity": {
           "amount": 30,
           "unit": "servings"
         }
@@ -2731,7 +2731,7 @@ let recipeData = [
       {
         "name": "vodka",
         "id": 14051,
-        "quanitity": {
+        "quantity": {
           "amount": 0.6666666666666666,
           "unit": "cup"
         }
@@ -2739,7 +2739,7 @@ let recipeData = [
       {
         "name": "whipped cream",
         "id": 1054,
-        "quanitity": {
+        "quantity": {
           "amount": 30,
           "unit": "servings"
         }
@@ -2784,7 +2784,7 @@ let recipeData = [
       {
         "name": "artichoke hearts",
         "id": 93828,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2792,7 +2792,7 @@ let recipeData = [
       {
         "name": "baby bella mushrooms",
         "id": 11266,
-        "quanitity": {
+        "quantity": {
           "amount": 16,
           "unit": "ounces"
         }
@@ -2800,7 +2800,7 @@ let recipeData = [
       {
         "name": "cream cheese",
         "id": 1017,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "ounces"
         }
@@ -2808,7 +2808,7 @@ let recipeData = [
       {
         "name": "feta cheese",
         "id": 1019,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2816,7 +2816,7 @@ let recipeData = [
       {
         "name": "garlic powder",
         "id": 1022020,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -2824,7 +2824,7 @@ let recipeData = [
       {
         "name": "italian seasoning",
         "id": 1022027,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -2832,7 +2832,7 @@ let recipeData = [
       {
         "name": "kosher salt",
         "id": 1082047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -2840,7 +2840,7 @@ let recipeData = [
       {
         "name": "kosher salt",
         "id": 1082047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -2848,7 +2848,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2856,7 +2856,7 @@ let recipeData = [
       {
         "name": "parmesan cheese",
         "id": 1033,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -2864,7 +2864,7 @@ let recipeData = [
       {
         "name": "red pepper flakes",
         "id": 1032009,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -2872,7 +2872,7 @@ let recipeData = [
       {
         "name": "spinach",
         "id": 10011457,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "ounces"
         }
@@ -2906,7 +2906,7 @@ let recipeData = [
       {
         "name": "black pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -2914,7 +2914,7 @@ let recipeData = [
       {
         "name": "fresh basil leaves",
         "id": 2044,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -2922,7 +2922,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cloves"
         }
@@ -2930,7 +2930,7 @@ let recipeData = [
       {
         "name": "heavy cream",
         "id": 1053,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -2938,7 +2938,7 @@ let recipeData = [
       {
         "name": "italian sausage",
         "id": 7036,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pound"
         }
@@ -2946,7 +2946,7 @@ let recipeData = [
       {
         "name": "kosher salt",
         "id": 1082047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -2954,7 +2954,7 @@ let recipeData = [
       {
         "name": "marinara sauce",
         "id": 10111549,
-        "quanitity": {
+        "quantity": {
           "amount": 26,
           "unit": "ounce"
         }
@@ -2962,7 +2962,7 @@ let recipeData = [
       {
         "name": "milk",
         "id": 1077,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "cup"
         }
@@ -2970,7 +2970,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -2978,7 +2978,7 @@ let recipeData = [
       {
         "name": "pecorino romano",
         "id": 1038,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "cups"
         }
@@ -2986,7 +2986,7 @@ let recipeData = [
       {
         "name": "petite peas",
         "id": 11304,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "ounces"
         }
@@ -2994,7 +2994,7 @@ let recipeData = [
       {
         "name": "shallots",
         "id": 11677,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "small"
         }
@@ -3002,7 +3002,7 @@ let recipeData = [
       {
         "name": "shells",
         "id": 11020420,
-        "quanitity": {
+        "quantity": {
           "amount": 12,
           "unit": ""
         }
@@ -3010,7 +3010,7 @@ let recipeData = [
       {
         "name": "shredded mozzarella",
         "id": 1001026,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "ounces"
         }
@@ -3018,7 +3018,7 @@ let recipeData = [
       {
         "name": "skim milk ricotta",
         "id": 93630,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -3026,7 +3026,7 @@ let recipeData = [
       {
         "name": "white wine",
         "id": 14106,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -3113,7 +3113,7 @@ let recipeData = [
       {
         "name": "eggs",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "medium size"
         }
@@ -3121,7 +3121,7 @@ let recipeData = [
       {
         "name": "frozen spinach",
         "id": 11463,
-        "quanitity": {
+        "quantity": {
           "amount": 10,
           "unit": "ounces"
         }
@@ -3129,7 +3129,7 @@ let recipeData = [
       {
         "name": "garlic cloves",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": ""
         }
@@ -3137,7 +3137,7 @@ let recipeData = [
       {
         "name": "italian cheese blend",
         "id": 93651,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -3145,7 +3145,7 @@ let recipeData = [
       {
         "name": "marinated artichoke hearts",
         "id": 93828,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -3153,7 +3153,7 @@ let recipeData = [
       {
         "name": "non-fat greek yogurt",
         "id": 1011256,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "ounces"
         }
@@ -3161,7 +3161,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -3169,7 +3169,7 @@ let recipeData = [
       {
         "name": "pepper jack cheese",
         "id": 1025,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -3177,7 +3177,7 @@ let recipeData = [
       {
         "name": "quinoa",
         "id": 20035,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "cups"
         }
@@ -3185,7 +3185,7 @@ let recipeData = [
       {
         "name": "Salt & Pepper",
         "id": 1102047,
-        "quanitity": {
+        "quantity": {
           "amount": 5,
           "unit": "servings"
         }
@@ -3193,7 +3193,7 @@ let recipeData = [
       {
         "name": "shallot",
         "id": 11677,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -3236,7 +3236,7 @@ let recipeData = [
       {
         "name": "blackberry juice",
         "id": 10014623,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -3244,7 +3244,7 @@ let recipeData = [
       {
         "name": "blackberry juice",
         "id": 10014623,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "teaspoons"
         }
@@ -3252,7 +3252,7 @@ let recipeData = [
       {
         "name": "egg whites",
         "id": 1124,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "large"
         }
@@ -3260,7 +3260,7 @@ let recipeData = [
       {
         "name": "raspberries",
         "id": 9302,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "cups"
         }
@@ -3268,7 +3268,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pinch"
         }
@@ -3276,7 +3276,7 @@ let recipeData = [
       {
         "name": "sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 0.3333333333333333,
           "unit": "cup"
         }
@@ -3284,7 +3284,7 @@ let recipeData = [
       {
         "name": "sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "teaspoons"
         }
@@ -3316,7 +3316,7 @@ let recipeData = [
       {
         "name": "bananas",
         "id": 9040,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": ""
         }
@@ -3324,7 +3324,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 1.25,
           "unit": "sticks"
         }
@@ -3332,7 +3332,7 @@ let recipeData = [
       {
         "name": "canned pineapple",
         "id": 9354,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "large can"
         }
@@ -3340,7 +3340,7 @@ let recipeData = [
       {
         "name": "cherries",
         "id": 9070,
-        "quanitity": {
+        "quantity": {
           "amount": 15,
           "unit": "servings"
         }
@@ -3348,7 +3348,7 @@ let recipeData = [
       {
         "name": "chocolate syrup",
         "id": 14181,
-        "quanitity": {
+        "quantity": {
           "amount": 15,
           "unit": "servings"
         }
@@ -3356,7 +3356,7 @@ let recipeData = [
       {
         "name": "eggs",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": ""
         }
@@ -3364,7 +3364,7 @@ let recipeData = [
       {
         "name": "graham cracker crumbs",
         "id": 10018617,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -3372,7 +3372,7 @@ let recipeData = [
       {
         "name": "heavy cream",
         "id": 1053,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -3380,7 +3380,7 @@ let recipeData = [
       {
         "name": "nuts",
         "id": 12135,
-        "quanitity": {
+        "quantity": {
           "amount": 15,
           "unit": "servings"
         }
@@ -3388,7 +3388,7 @@ let recipeData = [
       {
         "name": "powdered sugar",
         "id": 19336,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -3396,7 +3396,7 @@ let recipeData = [
       {
         "name": "sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -3404,7 +3404,7 @@ let recipeData = [
       {
         "name": "vanilla",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tsp"
         }
@@ -3449,7 +3449,7 @@ let recipeData = [
       {
         "name": "avocados",
         "id": 9037,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -3457,7 +3457,7 @@ let recipeData = [
       {
         "name": "chickpeas",
         "id": 16057,
-        "quanitity": {
+        "quantity": {
           "amount": 1.5,
           "unit": "cups"
         }
@@ -3465,7 +3465,7 @@ let recipeData = [
       {
         "name": "flat-leaf parsley",
         "id": 11297,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -3473,7 +3473,7 @@ let recipeData = [
       {
         "name": "fresh dill",
         "id": 2045,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -3481,7 +3481,7 @@ let recipeData = [
       {
         "name": "greek yogurt",
         "id": 1256,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "tablespoons"
         }
@@ -3489,7 +3489,7 @@ let recipeData = [
       {
         "name": "lemon juice",
         "id": 9152,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -3497,7 +3497,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -3505,7 +3505,7 @@ let recipeData = [
       {
         "name": "salt and pepper",
         "id": 1102047,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "servings"
         }
@@ -3513,7 +3513,7 @@ let recipeData = [
       {
         "name": "scallions",
         "id": 11291,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": ""
         }
@@ -3557,7 +3557,7 @@ let recipeData = [
       {
         "name": "baking powder",
         "id": 18371,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -3565,7 +3565,7 @@ let recipeData = [
       {
         "name": "flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -3573,7 +3573,7 @@ let recipeData = [
       {
         "name": "granulated sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -3581,7 +3581,7 @@ let recipeData = [
       {
         "name": "milk",
         "id": 1077,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -3589,7 +3589,7 @@ let recipeData = [
       {
         "name": "peaches",
         "id": 9236,
-        "quanitity": {
+        "quantity": {
           "amount": 20,
           "unit": "ounces"
         }
@@ -3597,7 +3597,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pinch"
         }
@@ -3605,7 +3605,7 @@ let recipeData = [
       {
         "name": "unsalted butter",
         "id": 1145,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -3613,7 +3613,7 @@ let recipeData = [
       {
         "name": "vanilla ice cream",
         "id": 19095,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "servings"
         }
@@ -3621,7 +3621,7 @@ let recipeData = [
       {
         "name": "whipped cream",
         "id": 1054,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "servings"
         }
@@ -3649,7 +3649,7 @@ let recipeData = [
       {
         "name": "AP flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 2.5,
           "unit": "cups"
         }
@@ -3657,7 +3657,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "T"
         }
@@ -3665,7 +3665,7 @@ let recipeData = [
       {
         "name": "cooked bacon",
         "id": 10862,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "strips"
         }
@@ -3673,7 +3673,7 @@ let recipeData = [
       {
         "name": "cooked chicken",
         "id": 5114,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -3681,7 +3681,7 @@ let recipeData = [
       {
         "name": "feta",
         "id": 1019,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "cup"
         }
@@ -3689,7 +3689,7 @@ let recipeData = [
       {
         "name": "garlic powder",
         "id": 1022020,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "t"
         }
@@ -3697,7 +3697,7 @@ let recipeData = [
       {
         "name": "green bell pepper",
         "id": 11333,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -3705,7 +3705,7 @@ let recipeData = [
       {
         "name": "mozzarella",
         "id": 1026,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "cup"
         }
@@ -3713,7 +3713,7 @@ let recipeData = [
       {
         "name": "parmesan",
         "id": 1033,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -3721,7 +3721,7 @@ let recipeData = [
       {
         "name": "red onion",
         "id": 10011282,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "medium"
         }
@@ -3729,7 +3729,7 @@ let recipeData = [
       {
         "name": "roma tomatoes",
         "id": 10211529,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": ""
         }
@@ -3737,7 +3737,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "t"
         }
@@ -3745,7 +3745,7 @@ let recipeData = [
       {
         "name": "solid pack pumpkin",
         "id": 11424,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -3753,7 +3753,7 @@ let recipeData = [
       {
         "name": "sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "t"
         }
@@ -3761,7 +3761,7 @@ let recipeData = [
       {
         "name": "water",
         "id": 14412,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -3769,7 +3769,7 @@ let recipeData = [
       {
         "name": "white cheddar",
         "id": 1011009,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "cup"
         }
@@ -3777,7 +3777,7 @@ let recipeData = [
       {
         "name": "toppings",
         "id": null,
-        "quanitity": {
+        "quantity": {
           "amount": 15,
           "unit": "servings"
         }
@@ -3846,7 +3846,7 @@ let recipeData = [
       {
         "name": "balsamic glaze",
         "id": 98998,
-        "quanitity": {
+        "quantity": {
           "amount": 12,
           "unit": "servings"
         }
@@ -3854,7 +3854,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoon"
         }
@@ -3862,7 +3862,7 @@ let recipeData = [
       {
         "name": "fruit loops",
         "id": 8030,
-        "quanitity": {
+        "quantity": {
           "amount": 6.5,
           "unit": "oz"
         }
@@ -3870,7 +3870,7 @@ let recipeData = [
       {
         "name": "marshmallows",
         "id": 19116,
-        "quanitity": {
+        "quantity": {
           "amount": 9,
           "unit": "oz"
         }
@@ -3878,7 +3878,7 @@ let recipeData = [
       {
         "name": "milk",
         "id": 1077,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -3886,7 +3886,7 @@ let recipeData = [
       {
         "name": "powdered sugar",
         "id": 19336,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -3894,7 +3894,7 @@ let recipeData = [
       {
         "name": "sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -3918,7 +3918,7 @@ let recipeData = [
       {
         "name": "eggs",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "large"
         }
@@ -3926,7 +3926,7 @@ let recipeData = [
       {
         "name": "bbq sauce",
         "id": 6150,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -3934,7 +3934,7 @@ let recipeData = [
       {
         "name": "hummus",
         "id": 16158,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -3942,7 +3942,7 @@ let recipeData = [
       {
         "name": "paprika",
         "id": 2028,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -3950,7 +3950,7 @@ let recipeData = [
       {
         "name": "pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pinch"
         }
@@ -3958,7 +3958,7 @@ let recipeData = [
       {
         "name": "yellow mustard",
         "id": 2046,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -3994,7 +3994,7 @@ let recipeData = [
       {
         "name": "cream cheese",
         "id": 1017,
-        "quanitity": {
+        "quantity": {
           "amount": 16,
           "unit": "ounces"
         }
@@ -4002,7 +4002,7 @@ let recipeData = [
       {
         "name": "evaporated milk",
         "id": 1214,
-        "quanitity": {
+        "quantity": {
           "amount": 12,
           "unit": "ounces"
         }
@@ -4010,7 +4010,7 @@ let recipeData = [
       {
         "name": "heavy cream",
         "id": 1053,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -4018,7 +4018,7 @@ let recipeData = [
       {
         "name": "instant vanilla pudding mix",
         "id": 19206,
-        "quanitity": {
+        "quantity": {
           "amount": 6.8,
           "unit": "ounces"
         }
@@ -4026,7 +4026,7 @@ let recipeData = [
       {
         "name": "orange juice concentrate",
         "id": 9214,
-        "quanitity": {
+        "quantity": {
           "amount": 12,
           "unit": "ounces"
         }
@@ -4034,7 +4034,7 @@ let recipeData = [
       {
         "name": "orange zest",
         "id": 9216,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -4042,7 +4042,7 @@ let recipeData = [
       {
         "name": "orange zest",
         "id": 9216,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "servings"
         }
@@ -4050,7 +4050,7 @@ let recipeData = [
       {
         "name": "sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -4058,7 +4058,7 @@ let recipeData = [
       {
         "name": "vanilla extract",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -4098,7 +4098,7 @@ let recipeData = [
       {
         "name": "bacon",
         "id": 10123,
-        "quanitity": {
+        "quantity": {
           "amount": 6,
           "unit": "slices"
         }
@@ -4106,7 +4106,7 @@ let recipeData = [
       {
         "name": "fresh green beans",
         "id": 11052,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pound"
         }
@@ -4114,7 +4114,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -4122,7 +4122,7 @@ let recipeData = [
       {
         "name": "ground pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pinch"
         }
@@ -4130,7 +4130,7 @@ let recipeData = [
       {
         "name": "onions",
         "id": 11282,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -4138,7 +4138,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.125,
           "unit": "teaspoon"
         }
@@ -4146,7 +4146,7 @@ let recipeData = [
       {
         "name": "water",
         "id": 14412,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -4174,7 +4174,7 @@ let recipeData = [
       {
         "name": "baby arugula leaves",
         "id": 11959,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -4182,7 +4182,7 @@ let recipeData = [
       {
         "name": "blue cheese",
         "id": 1004,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -4190,7 +4190,7 @@ let recipeData = [
       {
         "name": "coarse sea salt",
         "id": 1012047,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "servings"
         }
@@ -4198,7 +4198,7 @@ let recipeData = [
       {
         "name": "ground pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 0.125,
           "unit": "teaspoon"
         }
@@ -4206,7 +4206,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -4214,7 +4214,7 @@ let recipeData = [
       {
         "name": "pear",
         "id": 9252,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": ""
         }
@@ -4222,7 +4222,7 @@ let recipeData = [
       {
         "name": "pear",
         "id": 9252,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoons"
         }
@@ -4230,7 +4230,7 @@ let recipeData = [
       {
         "name": "pear juice",
         "id": 43408,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "tablespoons"
         }
@@ -4238,7 +4238,7 @@ let recipeData = [
       {
         "name": "shallot",
         "id": 11677,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "medium"
         }
@@ -4246,7 +4246,7 @@ let recipeData = [
       {
         "name": "thyme",
         "id": 2049,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "sprigs"
         }
@@ -4254,7 +4254,7 @@ let recipeData = [
       {
         "name": "walnuts",
         "id": 12155,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -4290,7 +4290,7 @@ let recipeData = [
       {
         "name": "canned tomatoes",
         "id": 10011693,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cans"
         }
@@ -4298,7 +4298,7 @@ let recipeData = [
       {
         "name": "carrots",
         "id": 11124,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": ""
         }
@@ -4306,7 +4306,7 @@ let recipeData = [
       {
         "name": "coriander",
         "id": 2012,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tsp"
         }
@@ -4314,7 +4314,7 @@ let recipeData = [
       {
         "name": "cumin",
         "id": 1002014,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tsp"
         }
@@ -4322,7 +4322,7 @@ let recipeData = [
       {
         "name": "frozen corn",
         "id": 11913,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -4330,7 +4330,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cloves"
         }
@@ -4338,7 +4338,7 @@ let recipeData = [
       {
         "name": "green bell pepper",
         "id": 11333,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -4346,7 +4346,7 @@ let recipeData = [
       {
         "name": "onion",
         "id": 11282,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -4354,7 +4354,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "servings"
         }
@@ -4362,7 +4362,7 @@ let recipeData = [
       {
         "name": "zucchini",
         "id": 11477,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": ""
         }
@@ -4402,7 +4402,7 @@ let recipeData = [
       {
         "name": "barbecue sauce",
         "id": 6150,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -4410,7 +4410,7 @@ let recipeData = [
       {
         "name": "cooked rice",
         "id": 10220445,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "servings"
         }
@@ -4418,7 +4418,7 @@ let recipeData = [
       {
         "name": "dried basil",
         "id": 2003,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -4426,7 +4426,7 @@ let recipeData = [
       {
         "name": "garlic powder",
         "id": 1022020,
-        "quanitity": {
+        "quantity": {
           "amount": 0.125,
           "unit": "teaspoon"
         }
@@ -4434,7 +4434,7 @@ let recipeData = [
       {
         "name": "green bell pepper",
         "id": 11333,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "medium"
         }
@@ -4442,7 +4442,7 @@ let recipeData = [
       {
         "name": "honey",
         "id": 19296,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -4450,7 +4450,7 @@ let recipeData = [
       {
         "name": "onion",
         "id": 11282,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "medium"
         }
@@ -4458,7 +4458,7 @@ let recipeData = [
       {
         "name": "pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 0.125,
           "unit": "teaspoon"
         }
@@ -4466,7 +4466,7 @@ let recipeData = [
       {
         "name": "shrimp",
         "id": 15152,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "pound"
         }
@@ -4505,7 +4505,7 @@ let recipeData = [
       {
         "name": "brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tsp"
         }
@@ -4513,7 +4513,7 @@ let recipeData = [
       {
         "name": "canned black beans",
         "id": 16018,
-        "quanitity": {
+        "quantity": {
           "amount": 15,
           "unit": "oz"
         }
@@ -4521,7 +4521,7 @@ let recipeData = [
       {
         "name": "canola oil",
         "id": 4582,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "Tbs"
         }
@@ -4529,7 +4529,7 @@ let recipeData = [
       {
         "name": "chipotle chile in adobo",
         "id": 99223,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -4537,7 +4537,7 @@ let recipeData = [
       {
         "name": "cilantro",
         "id": 11165,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -4545,7 +4545,7 @@ let recipeData = [
       {
         "name": "flour tortillas",
         "id": 10218364,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "8-inch"
         }
@@ -4553,7 +4553,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tsp"
         }
@@ -4561,7 +4561,7 @@ let recipeData = [
       {
         "name": "ground cumin",
         "id": 1002014,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tsp"
         }
@@ -4569,7 +4569,7 @@ let recipeData = [
       {
         "name": "lime juice",
         "id": 9160,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "Tbs"
         }
@@ -4577,7 +4577,7 @@ let recipeData = [
       {
         "name": "slaw mix",
         "id": 10011109,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "oz"
         }
@@ -4585,7 +4585,7 @@ let recipeData = [
       {
         "name": "white onion",
         "id": 10611282,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -4637,7 +4637,7 @@ let recipeData = [
       {
         "name": "baby spinach",
         "id": 11457,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "handfuls"
         }
@@ -4645,7 +4645,7 @@ let recipeData = [
       {
         "name": "dried shiitake mushrooms",
         "id": 11268,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "oz"
         }
@@ -4653,7 +4653,7 @@ let recipeData = [
       {
         "name": "farro",
         "id": 10020005,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -4661,7 +4661,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "large cloves"
         }
@@ -4669,7 +4669,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoon"
         }
@@ -4677,7 +4677,7 @@ let recipeData = [
       {
         "name": "parmesan",
         "id": 1033,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "servings"
         }
@@ -4685,7 +4685,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -4693,7 +4693,7 @@ let recipeData = [
       {
         "name": "salt and pepper",
         "id": 1102047,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "servings"
         }
@@ -4701,7 +4701,7 @@ let recipeData = [
       {
         "name": "water",
         "id": 14412,
-        "quanitity": {
+        "quantity": {
           "amount": 5,
           "unit": "cups"
         }
@@ -4709,7 +4709,7 @@ let recipeData = [
       {
         "name": "yellow onion",
         "id": 10511282,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "medium"
         }
@@ -4752,7 +4752,7 @@ let recipeData = [
       {
         "name": "balsamic vinegar",
         "id": 2069,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tablespoon"
         }
@@ -4760,7 +4760,7 @@ let recipeData = [
       {
         "name": "butter lettuce",
         "id": 11250,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -4768,7 +4768,7 @@ let recipeData = [
       {
         "name": "canola oil",
         "id": 4582,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -4776,7 +4776,7 @@ let recipeData = [
       {
         "name": "cornstarch",
         "id": 20027,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -4784,7 +4784,7 @@ let recipeData = [
       {
         "name": "fresh chives",
         "id": 11156,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "tablespoons"
         }
@@ -4792,7 +4792,7 @@ let recipeData = [
       {
         "name": "fresh cilantro",
         "id": 11165,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -4800,7 +4800,7 @@ let recipeData = [
       {
         "name": "honey",
         "id": 19296,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -4808,7 +4808,7 @@ let recipeData = [
       {
         "name": "mayonnaise",
         "id": 4025,
-        "quanitity": {
+        "quantity": {
           "amount": 5,
           "unit": "tablespoons"
         }
@@ -4816,7 +4816,7 @@ let recipeData = [
       {
         "name": "napa cabbage",
         "id": 11119,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "head"
         }
@@ -4824,7 +4824,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -4832,7 +4832,7 @@ let recipeData = [
       {
         "name": "raw shrimp",
         "id": 15152,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pound"
         }
@@ -4840,7 +4840,7 @@ let recipeData = [
       {
         "name": "red cabbage",
         "id": 11112,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "head"
         }
@@ -4848,7 +4848,7 @@ let recipeData = [
       {
         "name": "sriracha",
         "id": 1016168,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -4856,7 +4856,7 @@ let recipeData = [
       {
         "name": "sweet chili sauce",
         "id": 98962,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -4895,7 +4895,7 @@ let recipeData = [
       {
         "name": "black pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -4903,7 +4903,7 @@ let recipeData = [
       {
         "name": "dried basil",
         "id": 2003,
-        "quanitity": {
+        "quantity": {
           "amount": 1.5,
           "unit": "teaspoons"
         }
@@ -4911,7 +4911,7 @@ let recipeData = [
       {
         "name": "dried thyme",
         "id": 2042,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -4919,7 +4919,7 @@ let recipeData = [
       {
         "name": "eggs",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": ""
         }
@@ -4927,7 +4927,7 @@ let recipeData = [
       {
         "name": "garlic granules",
         "id": 1002020,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -4935,7 +4935,7 @@ let recipeData = [
       {
         "name": "ground beef",
         "id": 10023572,
-        "quanitity": {
+        "quantity": {
           "amount": 2.75,
           "unit": "pounds"
         }
@@ -4943,7 +4943,7 @@ let recipeData = [
       {
         "name": "oregano",
         "id": 2027,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tablespoon"
         }
@@ -4951,7 +4951,7 @@ let recipeData = [
       {
         "name": "parmesan cheese",
         "id": 1033,
-        "quanitity": {
+        "quantity": {
           "amount": 1.5,
           "unit": "cups"
         }
@@ -4959,7 +4959,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 1.5,
           "unit": "teaspoons"
         }
@@ -5008,7 +5008,7 @@ let recipeData = [
       {
         "name": "boston lettuce leaves",
         "id": 10011250,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": ""
         }
@@ -5016,7 +5016,7 @@ let recipeData = [
       {
         "name": "celery",
         "id": 11143,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "rib"
         }
@@ -5024,7 +5024,7 @@ let recipeData = [
       {
         "name": "cooked chicken breast",
         "id": 5064,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -5032,7 +5032,7 @@ let recipeData = [
       {
         "name": "curry powder",
         "id": 2015,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "teaspoon"
         }
@@ -5040,7 +5040,7 @@ let recipeData = [
       {
         "name": "lime juice",
         "id": 9160,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -5048,7 +5048,7 @@ let recipeData = [
       {
         "name": "lime peel",
         "id": 1009159,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "teaspoon"
         }
@@ -5056,7 +5056,7 @@ let recipeData = [
       {
         "name": "low fat mayonnaise",
         "id": 4641,
-        "quanitity": {
+        "quantity": {
           "amount": 0.3333333333333333,
           "unit": "cup"
         }
@@ -5064,7 +5064,7 @@ let recipeData = [
       {
         "name": "mint chutney",
         "id": 98991,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -5072,7 +5072,7 @@ let recipeData = [
       {
         "name": "red onion",
         "id": 10011282,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -5080,7 +5080,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -5088,7 +5088,7 @@ let recipeData = [
       {
         "name": "strawberries",
         "id": 9316,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -5120,7 +5120,7 @@ let recipeData = [
       {
         "name": "bacon",
         "id": 10123,
-        "quanitity": {
+        "quantity": {
           "amount": 14,
           "unit": "slices"
         }
@@ -5128,7 +5128,7 @@ let recipeData = [
       {
         "name": "broccoli",
         "id": 11090,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "oz"
         }
@@ -5136,7 +5136,7 @@ let recipeData = [
       {
         "name": "cream cheese",
         "id": 1017,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "oz"
         }
@@ -5144,7 +5144,7 @@ let recipeData = [
       {
         "name": "garlic",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tsp"
         }
@@ -5152,7 +5152,7 @@ let recipeData = [
       {
         "name": "garlic powder",
         "id": 1022020,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tsp"
         }
@@ -5160,7 +5160,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "tbsp"
         }
@@ -5168,7 +5168,7 @@ let recipeData = [
       {
         "name": "onion",
         "id": 11282,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "small"
         }
@@ -5176,7 +5176,7 @@ let recipeData = [
       {
         "name": "onion powder",
         "id": 2026,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "tsp"
         }
@@ -5184,7 +5184,7 @@ let recipeData = [
       {
         "name": "orange bell pepper",
         "id": 10011821,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": ""
         }
@@ -5192,7 +5192,7 @@ let recipeData = [
       {
         "name": "pork tenderloin",
         "id": 10218,
-        "quanitity": {
+        "quantity": {
           "amount": 16,
           "unit": "oz"
         }
@@ -5200,7 +5200,7 @@ let recipeData = [
       {
         "name": "salt and pepper",
         "id": 1102047,
-        "quanitity": {
+        "quantity": {
           "amount": 4,
           "unit": "servings"
         }
@@ -5208,7 +5208,7 @@ let recipeData = [
       {
         "name": "spinach",
         "id": 10011457,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "oz"
         }
@@ -5216,7 +5216,7 @@ let recipeData = [
       {
         "name": "tomatoes",
         "id": 11529,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -5271,7 +5271,7 @@ let recipeData = [
       {
         "name": "baking powder",
         "id": 18371,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -5279,7 +5279,7 @@ let recipeData = [
       {
         "name": "baking soda",
         "id": 18372,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -5287,7 +5287,7 @@ let recipeData = [
       {
         "name": "egg",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "large"
         }
@@ -5295,7 +5295,7 @@ let recipeData = [
       {
         "name": "flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -5303,7 +5303,7 @@ let recipeData = [
       {
         "name": "light brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -5311,7 +5311,7 @@ let recipeData = [
       {
         "name": "m&m candies",
         "id": 19157,
-        "quanitity": {
+        "quantity": {
           "amount": 16,
           "unit": ""
         }
@@ -5319,7 +5319,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -5327,7 +5327,7 @@ let recipeData = [
       {
         "name": "semi sweet chocolate chips",
         "id": 10019903,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -5335,7 +5335,7 @@ let recipeData = [
       {
         "name": "unsalted butter",
         "id": 1145,
-        "quanitity": {
+        "quantity": {
           "amount": 0.3333333333333333,
           "unit": "cup"
         }
@@ -5343,7 +5343,7 @@ let recipeData = [
       {
         "name": "vanilla extract",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "teaspoons"
         }
@@ -5387,7 +5387,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -5395,7 +5395,7 @@ let recipeData = [
       {
         "name": "hawaiian rolls",
         "id": 98871,
-        "quanitity": {
+        "quantity": {
           "amount": 12,
           "unit": ""
         }
@@ -5403,7 +5403,7 @@ let recipeData = [
       {
         "name": "honey",
         "id": 19296,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -5411,7 +5411,7 @@ let recipeData = [
       {
         "name": "hot sauce",
         "id": 6168,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -5419,7 +5419,7 @@ let recipeData = [
       {
         "name": "pepper",
         "id": 1002030,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -5427,7 +5427,7 @@ let recipeData = [
       {
         "name": "skinless boneless chicken breasts",
         "id": 1055062,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "pound"
         }
@@ -5462,7 +5462,7 @@ let recipeData = [
       {
         "name": "baking soda",
         "id": 18372,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "teaspoon"
         }
@@ -5470,7 +5470,7 @@ let recipeData = [
       {
         "name": "brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -5478,7 +5478,7 @@ let recipeData = [
       {
         "name": "egg",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -5486,7 +5486,7 @@ let recipeData = [
       {
         "name": "flour",
         "id": 20081,
-        "quanitity": {
+        "quantity": {
           "amount": 1.75,
           "unit": "cups"
         }
@@ -5494,7 +5494,7 @@ let recipeData = [
       {
         "name": "peanut butter",
         "id": 16098,
-        "quanitity": {
+        "quantity": {
           "amount": 0.75,
           "unit": "cup"
         }
@@ -5502,7 +5502,7 @@ let recipeData = [
       {
         "name": "reese's pieces",
         "id": 10019151,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "oz"
         }
@@ -5510,7 +5510,7 @@ let recipeData = [
       {
         "name": "salt",
         "id": 2047,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -5518,7 +5518,7 @@ let recipeData = [
       {
         "name": "unsalted butter",
         "id": 1145,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -5526,7 +5526,7 @@ let recipeData = [
       {
         "name": "vanilla extract",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -5534,7 +5534,7 @@ let recipeData = [
       {
         "name": "white sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -5579,7 +5579,7 @@ let recipeData = [
       {
         "name": "cheese",
         "id": 1041009,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -5587,7 +5587,7 @@ let recipeData = [
       {
         "name": "flatbread",
         "id": 10018413,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -5595,7 +5595,7 @@ let recipeData = [
       {
         "name": "fresh basil",
         "id": 2044,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "leaves"
         }
@@ -5603,7 +5603,7 @@ let recipeData = [
       {
         "name": "grape tomatoes",
         "id": 10111529,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -5611,7 +5611,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -5619,7 +5619,7 @@ let recipeData = [
       {
         "name": "zucchini",
         "id": 11477,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -5647,7 +5647,7 @@ let recipeData = [
       {
         "name": "apple sauce",
         "id": 9019,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -5655,7 +5655,7 @@ let recipeData = [
       {
         "name": "breadcrumbs",
         "id": 18079,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -5663,7 +5663,7 @@ let recipeData = [
       {
         "name": "brown lentils",
         "id": 16069,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -5671,7 +5671,7 @@ let recipeData = [
       {
         "name": "brown sugar",
         "id": 19334,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -5679,7 +5679,7 @@ let recipeData = [
       {
         "name": "carrot",
         "id": 11124,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -5687,7 +5687,7 @@ let recipeData = [
       {
         "name": "chili powder",
         "id": 2009,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "teaspoon"
         }
@@ -5695,7 +5695,7 @@ let recipeData = [
       {
         "name": "dried cranberries",
         "id": 9079,
-        "quanitity": {
+        "quantity": {
           "amount": 0.3333333333333333,
           "unit": "cup"
         }
@@ -5703,7 +5703,7 @@ let recipeData = [
       {
         "name": "fresh cilantro leaves",
         "id": 11165,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -5711,7 +5711,7 @@ let recipeData = [
       {
         "name": "garlic cloves",
         "id": 11215,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": ""
         }
@@ -5719,7 +5719,7 @@ let recipeData = [
       {
         "name": "ground cumin",
         "id": 1002014,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -5727,7 +5727,7 @@ let recipeData = [
       {
         "name": "ground thyme",
         "id": 2042,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "teaspoon"
         }
@@ -5735,7 +5735,7 @@ let recipeData = [
       {
         "name": "ketchup",
         "id": 11935,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -5743,7 +5743,7 @@ let recipeData = [
       {
         "name": "olive oil",
         "id": 4053,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoon"
         }
@@ -5751,7 +5751,7 @@ let recipeData = [
       {
         "name": "onion",
         "id": 11282,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -5759,7 +5759,7 @@ let recipeData = [
       {
         "name": "pistachios",
         "id": 12151,
-        "quanitity": {
+        "quantity": {
           "amount": 0.5,
           "unit": "cup"
         }
@@ -5767,7 +5767,7 @@ let recipeData = [
       {
         "name": "red bell pepper",
         "id": 11821,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "cup"
         }
@@ -5775,7 +5775,7 @@ let recipeData = [
       {
         "name": "salt and pepper",
         "id": 1102047,
-        "quanitity": {
+        "quantity": {
           "amount": 8,
           "unit": "servings"
         }
@@ -5783,7 +5783,7 @@ let recipeData = [
       {
         "name": "vegetable broth",
         "id": 6615,
-        "quanitity": {
+        "quantity": {
           "amount": 3,
           "unit": "cups"
         }
@@ -5839,7 +5839,7 @@ let recipeData = [
       {
         "name": "butter",
         "id": 1001,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "tablespoons"
         }
@@ -5847,7 +5847,7 @@ let recipeData = [
       {
         "name": "cornstarch",
         "id": 20027,
-        "quanitity": {
+        "quantity": {
           "amount": 0.25,
           "unit": "cup"
         }
@@ -5855,7 +5855,7 @@ let recipeData = [
       {
         "name": "egg",
         "id": 1123,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": ""
         }
@@ -5863,7 +5863,7 @@ let recipeData = [
       {
         "name": "egg yolks",
         "id": 1125,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": ""
         }
@@ -5871,7 +5871,7 @@ let recipeData = [
       {
         "name": "milk",
         "id": 1077,
-        "quanitity": {
+        "quantity": {
           "amount": 2,
           "unit": "cups"
         }
@@ -5879,7 +5879,7 @@ let recipeData = [
       {
         "name": "vanilla extract",
         "id": 2050,
-        "quanitity": {
+        "quantity": {
           "amount": 1,
           "unit": "teaspoon"
         }
@@ -5887,7 +5887,7 @@ let recipeData = [
       {
         "name": "white sugar",
         "id": 19335,
-        "quanitity": {
+        "quantity": {
           "amount": 0.3333333333333333,
           "unit": "cup"
         }
