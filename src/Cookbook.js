@@ -1,6 +1,6 @@
 class Cookbook {
-  constructor(recipes) {
-    this.cookbook = recipes;
+  constructor() {
+    this.cookbook = [];
   }
 
   allRecipesHTML() {
