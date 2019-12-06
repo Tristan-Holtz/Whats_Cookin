@@ -130,19 +130,11 @@ body {
 .dashboard__section {
   background: url('../img/kitchen-spices.jpeg') center/100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   margin-bottom: 10px;
   width: 100%;
-}
-
-.dashboard__div {
-  display: flex;
-  justify-content: space-around;
-}
-
-.dashboard__input--div {
-  margin: 120px;
-  margin-top: 180px;
+  height: 75vh;
 }
 
 .dashboard__input {
@@ -151,7 +143,7 @@ body {
   width: 420px;
 }
 
-.dashboard__div--search {
+.dashboard__section--search {
   align-self: center;
   display: flex;
   flex-direction: column;
