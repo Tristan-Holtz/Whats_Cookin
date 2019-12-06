@@ -33,7 +33,7 @@ let recipe1;
   it('should be able to store tag as a property', () => {
 
 
-    expect(recipe1.id).to.equal(595736);
+    expect(recipe1.tags).to.deep.equal(recipeData[0].tags);
   })
 
   it('should store name as a property', () => {

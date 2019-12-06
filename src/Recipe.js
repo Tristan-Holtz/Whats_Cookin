@@ -1,11 +1,8 @@
-const ingredientData = require('../data/ingredients');
-
-
 class Recipe {
   constructor(recipe) {
     this.name = recipe.name;
     this.id = recipe.id;
-    this.tag = recipe.tag;
+    this.tags = recipe.tags;
     this.image = recipe.image;
     this.ingredients = recipe.ingredients;
     this.instructions = recipe.instructions;
@@ -15,7 +12,6 @@ class Recipe {
     return this.ingredients.reduce((acc, recipeIngredient) => {
         ingredientData.forEach((ingredient) => {
           if (ingredient.id === recipeIngredient.id) {
-            console.log(ingredient.name);
             acc += ingredient.estimatedCostInCents;
           }
         })
@@ -25,22 +21,21 @@ class Recipe {
 
   displayInstructions() {
     return this.instructions.reduce((acc, instruction) => {
-      acc[instruction.number] = instruction.instruction;
-        return acc;
-      }, {})
-    };
-  }
+      acc[instruction.number] = instruction.instruction
+      return acc;
+    }, {})
+  };
 
   displayRecipePage() {
-    return `
-      
-    `;
+  return `
+
+  `;
   }
 
   displayRecipeCard(recipe) {
     return `
       <article class='recipe__article'>
-        <img class='article__img' src='${recipe.image}'>
+        <img class='article__img' src=${recipe.image}>
         <h1 class='article__h1'>${recipe.name}</h1>
         <div class='article__div'>
           <button class='article__btn article__btn--favorite'>Favorite</button>
@@ -49,6 +44,8 @@ class Recipe {
       </article>
       `;
   }
+}
+
 
 
 if (typeof module !== 'undefined') {

@@ -165,13 +165,57 @@ body {
   background-color: #bfbcbb;
   border-radius: 5px;
   box-shadow: 5px 5px 5px gray;
+  display: flex;
+  flex-direction: column;
   height: 375px;
+  justify-content: space-between;
   padding: 10px;
   width: 330px;
 }
 
 .article__img {
   border-radius: 5px;
+  cursor: pointer;
+  height: 70%;
+  width: 100%;
+}
+
+.article__h1 {
+  text-align: center;
+}
+
+.article__div {
+  display: flex;
+  height: 15%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.article__btn {
+  border-radius: 3px;
+  cursor: pointer;
+  height: 100%;
+  width: 45%;
+}
+
+/********RECIPE PAGE********/
+
+.main__section {
+  align-self: center;
+  background-color: white;
+  height: 80%;
+  margin: 0 0 8% 8%;
+  padding: 1%;
+  width: 85%;
+}
+
+.section__div--img-name {
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+.section__article--content {
   height: 70%;
   width: 100%;
 }
