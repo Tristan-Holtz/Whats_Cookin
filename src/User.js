@@ -32,6 +32,17 @@ class User {
       return allRecipes.filter(recipe => recipe.tags.includes(tag))        
     }
   }
+
+  searchRecipe(type, keyword, allRecipes) {
+    switch (type) {
+    case 'favorite':
+      return this.favoriteRecipes.filter(recipe => recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
+    case 'cook':
+      return this.recipesToCook.filter(recipe => recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
+    case 'all':
+      return allRecipes.filter(recipe => recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
+    }
+  }
 }
 
 if (typeof module !== 'undefined') {
