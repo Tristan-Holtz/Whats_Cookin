@@ -252,7 +252,7 @@ body {
   'ins ins';
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1.5fr 2.5fr;
-  height: 80vh;
+  height: 86vh;
 }
 
 .recipe__img {
