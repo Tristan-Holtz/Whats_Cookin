@@ -9,9 +9,9 @@ describe('User', () => {
   let user;
 
   beforeEach(() => {
-    // user = new User(userData[0].id,userData[0].name);
     recipe1 = new Recipe(recipeData[0]);
     recipe2 = new Recipe(recipeData[1]);
+    recipe3 = new Recipe(recipeData[2]);
     user = new User(1, "Carole Fay");
   });
 
@@ -72,6 +72,21 @@ describe('User', () => {
       user.storeRecipe('cook', recipe1);
       user.storeRecipe('cook', recipe1);
       expect(user.recipesToCook).to.deep.equal([recipeData[0]]);
+    });
+  });
+  describe('Recipe Filter', () => { 
+    it('should be able to filter based on tag', () => {
+      user.storeRecipe('favorite', recipe1);
+      user.storeRecipe('favorite', recipe2);
+      user.storeRecipe('favorite', recipe3);
+      expect(user.filterRecipe('favorite', 'sauce')).to.deep.equal([recipeData[2]]);
+    });
+
+    it('should be able to search by keyword', () => {
+      user.storeRecipe('favorite', recipe1);
+      user.storeRecipe('favorite', recipe2);
+      user.storeRecipe('favorite', recipe3);
+      expect(user.searchRecipe('favorite', 'pork')).to.deep.equal([recipeData[1]]);
     });
   });
 });
