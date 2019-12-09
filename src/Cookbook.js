@@ -12,7 +12,7 @@ class Cookbook {
 
   findRecipe(id) {
     return this.cookbook.find((recipe) => {
-      return recipe.id === id;
+      return recipe.id.toString() === id;
     })
   }
 }
