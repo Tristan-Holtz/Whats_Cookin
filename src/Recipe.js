@@ -37,7 +37,7 @@ class Recipe {
   displayRecipeCard(recipe) {
     return `
       <article data-id='${recipe.id}' class='recipe__article'>
-        <img class='article__img' src=${recipe.image}>
+        <img class='article__img' src=${recipe.image} alt='${recipe.name}'>
         <h1 class='article__h1'>${recipe.name}</h1>
         <div class='article__div'>
           <button class='article__btn article__btn--favorite'>Favorite</button>
