@@ -6,15 +6,17 @@ class Recipe {
     this.image = recipe.image;
     this.ingredients = recipe.ingredients;
     this.instructions = recipe.instructions;
+    this.favorited = false;
+    this.toCook = false;
   };
 
   calculateCost() {
     return this.ingredients.reduce((acc, recipeIngredient) => {
-        ingredientData.forEach((ingredient) => {
-          if (ingredient.id === recipeIngredient.id) {
-            acc += ingredient.estimatedCostInCents;
-          }
-        })
+      ingredientsData.forEach((ingredient) => {
+        if (ingredient.id === recipeIngredient.id) {
+          acc += ingredient.estimatedCostInCents;
+        }
+      })
       return acc;
     }, 0) / 100;
   };
@@ -34,12 +36,12 @@ class Recipe {
 
   displayRecipeCard(recipe) {
     return `
-      <article class='recipe__article'>
+      <article data-id='${recipe.id}' class='recipe__article'>
         <img class='article__img' src=${recipe.image}>
         <h1 class='article__h1'>${recipe.name}</h1>
         <div class='article__div'>
           <button class='article__btn article__btn--favorite'>Favorite</button>
-          <button class='article__btn article__btn--to-cook'>To Cook</button>
+          <button class='article__btn article__btn--cook'>To Cook</button>
         </div>
       </article>
       `;
