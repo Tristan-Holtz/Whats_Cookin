@@ -7,19 +7,11 @@ class User {
   }
 
   storeRecipe(type, recipe) {
-    switch (type) {
-    case 'favorite':
-      this.favoriteRecipes.push(recipe);
-      // this.favoriteRecipes = Array.from(new Set(this.favoriteRecipes))
-      // why JSON stringify?
-      this.favoriteRecipes = this.favoriteRecipes.filter((recipe, index, allRecipes) => index === allRecipes.findIndex((searchIndex) => searchIndex.id === recipe.id))
-      //either way need to reinstanciate as recipes. 
-      break;
-    case 'cook':
-      this.recipesToCook.push(recipe)
-      this.recipesToCook = Array.from(new Set(this.recipesToCook.map(JSON.stringify))).map(JSON.parse)
-      break;
-    }
+    this[type].push(recipe);
+  }
+
+  removeRecipe(type, recipe) {
+    this[type].remove(recipe);
   }
 
   filterRecipe(type, tag, allRecipes) {
@@ -29,7 +21,7 @@ class User {
     case 'cook':
       return this.recipesToCook.filter(recipe => recipe.tags.includes(tag))
     case 'all':
-      return allRecipes.filter(recipe => recipe.tags.includes(tag))        
+      return allRecipes.filter(recipe => recipe.tags.includes(tag))
     }
   }
 
