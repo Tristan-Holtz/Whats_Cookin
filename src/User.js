@@ -11,27 +11,28 @@ class User {
   }
 
   removeRecipe(type, recipe) {
-    this[type].remove(recipe);
+    const index = this[type].findIndex(userRecipe => recipe === userRecipe);
+    this[type].splice(index, 1);
   }
 
   filterRecipe(type, tag, allRecipes) {
     switch (type) {
-    case 'favorite':
+    case 'favoriteRecipes':
       return this.favoriteRecipes.filter(recipe => recipe.tags.includes(tag))
-    case 'cook':
+    case 'recipesToCook':
       return this.recipesToCook.filter(recipe => recipe.tags.includes(tag))
-    case 'all':
+    default:
       return allRecipes.filter(recipe => recipe.tags.includes(tag))
     }
   }
 
   searchRecipe(type, keyword, allRecipes) {
     switch (type) {
-    case 'favorite':
+    case 'favoriteRecipes':
       return this.favoriteRecipes.filter(recipe => recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
-    case 'cook':
+    case 'recipesToCook':
       return this.recipesToCook.filter(recipe => recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
-    case 'all':
+    default:
       return allRecipes.filter(recipe => recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
     }
   }
