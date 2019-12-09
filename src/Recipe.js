@@ -1,5 +1,3 @@
-const ingredientData = require('../data/ingredients');
-
 class Recipe {
   constructor(recipe) {
     this.name = recipe.name;
@@ -12,7 +10,7 @@ class Recipe {
 
   calculateCost() {
     return this.ingredients.reduce((acc, recipeIngredient) => {
-      ingredientData.forEach((ingredient) => {
+      ingredientsData.forEach((ingredient) => {
         if (ingredient.id === recipeIngredient.id) {
           acc += ingredient.estimatedCostInCents;
         }
@@ -63,7 +61,7 @@ class Recipe {
 
   displayRecipeCard(recipe) {
     return `
-      <article class='recipe__article'>
+      <article class='recipe__article' data-id='${recipe.id}'>
         <img class='article__img' src=${recipe.image}>
         <h1 class='article__h1'>${recipe.name}</h1>
         <div class='article__div'>
@@ -74,8 +72,6 @@ class Recipe {
       `;
   }
 }
-
-
 
 if (typeof module !== 'undefined') {
   module.exports = Recipe;
