@@ -9,6 +9,12 @@ class Cookbook {
       return html;
     }, '');
   }
+
+  findRecipe(id) {
+    return this.cookbook.find((recipe) => {
+      return recipe.id === id;
+    })
+  }
 }
 
 if (typeof module !== 'undefined') {
