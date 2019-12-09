@@ -127,7 +127,7 @@ body {
   justify-content: space-around;
   margin-bottom: 10px;
   width: 100%;
-  height: 75vh;
+  height: 90vh;
 }
 
 .dashboard__input {
@@ -231,10 +231,10 @@ body {
   width: 100%;
 }
 
-.article__btn {
+.article__btn--recipe {
   border-radius: 3px;
   height: 100%;
-  width: 50%;
+  width: 45%;
 }
 
 /********RECIPE PAGE********/
@@ -247,7 +247,7 @@ body {
   background-color: white;
   display: grid;
   margin: 3% 8% 3% 8%;
-  grid-template-areas: 
+  grid-template-areas:
   'img name'
   'ins ins';
   grid-template-columns: 1fr 2fr;
@@ -301,7 +301,7 @@ body {
   width: 50px;
 }
 
-/* 
+/*
 .section__div--img-name {
   display: flex;
   height: 50%;
@@ -313,5 +313,5 @@ body {
 }
 
 .section__article--content {
-  
+
 } */
