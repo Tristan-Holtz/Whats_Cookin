@@ -46,6 +46,14 @@ class Recipe {
       </article>
       `;
   }
+
+  toggleCook() {
+    this.toCook = !this.toCook;
+  }
+
+  toggleFavorite() {
+    this.favorite = !this.favorite;
+  }
 }
 
 
