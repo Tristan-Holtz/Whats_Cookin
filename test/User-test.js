@@ -2,12 +2,16 @@ const chai = require('chai');
 const expect = chai.expect;
 
 const User = require('../src/User');
+const Recipe = require('../src/Recipe');
+const recipeData = require('../data/recipes');
 
 describe('User', () => {
   let user;
 
   beforeEach(() => {
-    // user = new User(userData[0].id,userData[0].name);
+    recipe1 = new Recipe(recipeData[0]);
+    recipe2 = new Recipe(recipeData[1]);
+    recipe3 = new Recipe(recipeData[2]);
     user = new User(1, "Carole Fay");
   });
 
@@ -27,11 +31,62 @@ describe('User', () => {
     expect(user.name).to.equal("Carole Fay");
   });
 
-  it('should start with an empty favorite recipe array', () => {
-    expect(user.favoriteRecipes).to.deep.equal([]);
-  });
+  describe('Recipe Storage', () => {
+    it('should start with an empty favorite recipe array', () => {
+      expect(user.favoriteRecipes).to.deep.equal([]);
+    });
+  
+    it('should start with an empty recipe to cook array', () => {
+      expect(user.recipesToCook).to.deep.equal([]);
+    });
+  
+    it('should be able to store favorite', () => {
+      user.storeRecipe('favorite', recipe1);
+      expect(user.favoriteRecipes).to.deep.equal([recipeData[0]]);
+    });
+  
+    it('should be able to add recipes to cook', () => {
+      user.storeRecipe('cook', recipe1);
+      expect(user.recipesToCook).to.deep.equal([recipeData[0]]);
+    });
 
-  it('should start with an empty recipe to cook array', () => {
-    expect(user.recipesToCook).to.deep.equal([]);
+    it('should be able to store multipe favorites', () => {
+      user.storeRecipe('favorite', recipe1);
+      user.storeRecipe('favorite', recipe2);
+      expect(user.favoriteRecipes).to.deep.equal([recipeData[0], recipeData[1]]);
+    });
+
+    it('should be able to add multipe recipes to cook', () => {
+      user.storeRecipe('cook', recipe1);
+      user.storeRecipe('cook', recipe2);
+      expect(user.recipesToCook).to.deep.equal([recipeData[0], recipeData[1]]);
+    });
+  
+    it('should only be able to store a favorite once', () => {
+      user.storeRecipe('favorite', recipe1);
+      user.storeRecipe('favorite', recipe1);
+      expect(user.favoriteRecipes).to.deep.equal([recipeData[0]]);
+    });
+  
+    it('should only be able to store a recipe to cook once', () => {
+      user.storeRecipe('cook', recipe1);
+      user.storeRecipe('cook', recipe1);
+      expect(user.recipesToCook).to.deep.equal([recipeData[0]]);
+    });
+  });
+  describe('Recipe Filter', () => { 
+    it('should be able to filter based on tag', () => {
+      user.storeRecipe('favorite', recipe1);
+      user.storeRecipe('favorite', recipe2);
+      user.storeRecipe('favorite', recipe3);
+      expect(user.filterRecipe('favorite', 'sauce')).to.deep.equal([recipeData[2]]);
+    });
+
+    it('should be able to search by keyword', () => {
+      user.storeRecipe('favorite', recipe1);
+      user.storeRecipe('favorite', recipe2);
+      user.storeRecipe('favorite', recipe3);
+      expect(user.searchRecipe('favorite', 'pork')).to.deep.equal([recipeData[1]]);
+    });
   });
 });
