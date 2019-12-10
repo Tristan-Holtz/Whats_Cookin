@@ -1,7 +1,7 @@
-let users = [
+let usersData = [
   {
     "id": 1,
-    "name": "Saige O'Kon",
+    "name": "Guest",
     "pantry": [
       {
         "ingredient": 11477,
@@ -53256,5 +53256,5 @@ let users = [
 ]
 
 if (typeof module !== 'undefined') {
-  module.exports = users;
+  module.exports = usersData;
 }

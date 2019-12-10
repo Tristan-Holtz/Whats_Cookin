@@ -3,8 +3,13 @@ const recipeSection = document.querySelector('.recipes__section');
 const favoriteBtn = document.querySelector('.nav__btn--favorites');
 const cookBtn = document.querySelector('.nav__btn--cook');
 const searchInp = document.querySelector('.dashboard__input--search');
-const user = new User();
 
+const setUser = () => {
+  const userName = localStorage.getItem('name');
+  const userDetails = usersData.find(user => user.name === userName);
+  return userDetails ? userDetails : usersData[0];
+}
+const user = new User(setUser());
 
 const writeCookbook = (recipes) => {
   cookbook.cookbook = [];
