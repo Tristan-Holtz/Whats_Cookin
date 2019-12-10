@@ -1,10 +1,13 @@
 const cookbook = new Cookbook();
 const recipeSection = document.querySelector('.recipes__section');
+const favoriteBtn = document.querySelector('.nav__btn--favorites');
+const cookBtn = document.querySelector('.nav__btn--cook');
 const user = new User(1);
 
 
-const writeCookbook = () => {
-  recipeData.forEach((recipe) => {
+const writeCookbook = (recipes) => {
+  cookbook.cookbook = [];
+  recipes.forEach((recipe) => {
     cookbook.cookbook.push(new Recipe(recipe));
   })
 }
@@ -21,7 +24,7 @@ const chooseRecipe = (event) => {
 recipeSection.addEventListener('click', chooseRecipe);
 
 const loadRecipes = () => {
-  writeCookbook();
+  writeCookbook(recipeData);
   user.loadRecipes();
   recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
 }
@@ -52,6 +55,15 @@ const removeToCook = (recipe) => {
   user.removeRecipe('recipesToCook', recipe);
 }
 
+const refreshRecipes = (type) => {
+  recipeSection.innerHTML = '';
+  writeCookbook(user[type]);
+  recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
+}
+
+favoriteBtn.addEventListener('click', () => refreshRecipes('favoriteRecipes'))
+cookBtn.addEventListener('click', () => refreshRecipes('recipesToCook'))
+
 const recipeClickHandler = (event) => {
   const classes = event.target.classList;
   const recipeId = event.target.closest('.recipe__article').dataset.id;
@@ -66,7 +78,6 @@ const recipeClickHandler = (event) => {
     removeFavorite(cookbookRecipe);
   }
 }
-
 
 window.addEventListener('onload', loadRecipes());
 recipeSection.addEventListener('click', (event) => recipeClickHandler(event));
