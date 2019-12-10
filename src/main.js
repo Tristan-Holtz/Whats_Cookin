@@ -1,16 +1,40 @@
 const cookbook = new Cookbook();
 const recipeSection = document.querySelector('.recipes__section');
-const user = new User(1);
+const favoriteBtn = document.querySelector('.nav__btn--favorites');
+const cookBtn = document.querySelector('.nav__btn--cook');
+const searchInp = document.querySelector('.dashboard__input--search');
 
+const setUser = () => {
+  const userName = localStorage.getItem('name');
+  const userDetails = usersData.find(user => user.name === userName);
+  return userDetails ? userDetails : usersData[0];
+}
+const user = new User(setUser());
 
-const writeCookbook = () => {
-  recipeData.forEach((recipe) => {
+const writeCookbook = (recipes) => {
+  cookbook.cookbook = [];
+  recipes.forEach((recipe) => {
     cookbook.cookbook.push(new Recipe(recipe));
   })
 }
 
-const showRecipes = () => {
-  writeCookbook();
+const chooseRecipe = (event) => {
+  const recipeId = event.target.closest('.recipe__article').dataset.id;
+  const cookbookRecipe = cookbook.findRecipe(recipeId);
+  localStorage.setItem('selectedRecipe', 
+    JSON.stringify(cookbookRecipe))
+}
+
+const search = () => {
+  const recipes = user.searchRecipes('', searchInp.value.toLowerCase());
+  refreshRecipes(recipes);
+}
+
+searchInp.addEventListener('keyup', search);
+
+const loadRecipes = () => {
+  writeCookbook(recipeData);
+  user.loadRecipes();
   recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
 }
 
@@ -40,10 +64,20 @@ const removeToCook = (recipe) => {
   user.removeRecipe('recipesToCook', recipe);
 }
 
+const refreshRecipes = (recipes) => {
+  recipeSection.innerHTML = '';
+  writeCookbook(recipes);
+  recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
+}
+
+favoriteBtn.addEventListener('click', () => refreshRecipes(user.favoriteRecipes))
+cookBtn.addEventListener('click', () => refreshRecipes(user.recipesToCook))
+
 const recipeClickHandler = (event) => {
   const classes = event.target.classList;
   const recipeId = event.target.closest('.recipe__article').dataset.id;
   const cookbookRecipe = cookbook.findRecipe(recipeId);
+  chooseRecipe(event);
   if (classes.contains('article__btn--favorite')) {
     addFavorite(cookbookRecipe);
   } else if (classes.contains('recipe-toCook')) {
@@ -55,6 +89,5 @@ const recipeClickHandler = (event) => {
   }
 }
 
-
-window.addEventListener('onload', showRecipes());
+window.addEventListener('onload', loadRecipes());
 recipeSection.addEventListener('click', (event) => recipeClickHandler(event));
