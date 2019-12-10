@@ -34,12 +34,16 @@ class User {
   searchRecipes(type, keyword) {
     switch (type) {
     case 'favoriteRecipes':
-      return this.favoriteRecipes.filter(recipe => recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
+      return this.favoriteRecipes.filter(recipe => {
+        return (recipe.name.toLowerCase().includes(keyword) || recipe.ingredients.some(ingredient => ingredient.name.toLowerCase().includes(keyword)))
+      })
     case 'recipesToCook':
-      return this.recipesToCook.filter(recipe => recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
+      return this.recipesToCook.filter(recipe => {
+        return (recipe.name.toLowerCase().includes(keyword) || recipe.ingredients.some(ingredient => ingredient.name.toLowerCase().includes(keyword)))
+      })
     default:
       return recipeData.filter(recipe => {
-        return (recipe.name.includes(keyword) || recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
+        return (recipe.name.toLowerCase().includes(keyword) || recipe.ingredients.some(ingredient => ingredient.name.toLowerCase().includes(keyword)))
       })
     }
   }
@@ -48,10 +52,10 @@ class User {
     const storageFavorite = JSON.parse(localStorage.getItem('favoriteRecipes'));
     const storageCook = JSON.parse(localStorage.getItem('recipesToCook'));
     if (storageFavorite) {
-    storageFavorite.forEach(favorite => this.favoriteRecipes.push(new Recipe(favorite)));
+      storageFavorite.forEach(favorite => this.favoriteRecipes.push(new Recipe(favorite)));
     } 
     if (storageCook) {
-    storageCook.forEach(cookRecipe => this.recipesToCook.push(new Recipe(cookRecipe)));
+      storageCook.forEach(cookRecipe => this.recipesToCook.push(new Recipe(cookRecipe)));
     }
   }
 }
