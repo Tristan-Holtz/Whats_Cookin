@@ -1,11 +1,7 @@
 const cookbook = new Cookbook();
 const recipeSection = document.querySelector('.recipes__section');
-<<<<<<< HEAD
-var selectedRecipe; 
-=======
 const user = new User(1);
 
->>>>>>> master
 
 const writeCookbook = () => {
   recipeData.forEach((recipe) => {
@@ -17,7 +13,8 @@ const chooseRecipe = (event) => {
   if (event.target === 'img.article__img') {
     const recipeId = event.target.closest('.recipe__article').dataset.id;
     const cookbookRecipe = cookbook.findRecipe(recipeId);
-    selectedRecipe === cookbookRecipe;
+    localStorage.setItem('selectedRecipe', 
+      JSON.stringify(cookbookRecipe))
   }
 }
 
@@ -25,6 +22,7 @@ recipeSection.addEventListener('click', chooseRecipe);
 
 const loadRecipes = () => {
   writeCookbook();
+  user.loadRecipes();
   recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
 }
 
@@ -70,5 +68,5 @@ const recipeClickHandler = (event) => {
 }
 
 
-window.addEventListener('onload', showRecipes());
+window.addEventListener('onload', loadRecipes());
 recipeSection.addEventListener('click', (event) => recipeClickHandler(event));

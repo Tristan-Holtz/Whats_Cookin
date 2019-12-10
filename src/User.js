@@ -40,6 +40,19 @@ class User {
       return allRecipes.filter(recipe => recipe.ingredients.some(ingredient => ingredient.name.includes(keyword)))
     }
   }
+
+  loadRecipes() {
+    //load both recipe objects from storage, objectify
+    const storageFavorite = JSON.parse(localStorage.getItem('favoriteRecipes'));
+    const storageCook = JSON.parse(localStorage.getItem('recipesToCook'));
+    //loop through, forEach instanciate as new recipes and push into user properties 
+    if (storageFavorite) {
+    storageFavorite.forEach(favorite => {this.favoriteRecipes.push(new Recipe(favorite))});
+    } 
+    if (storageCook) {
+    storageCook.forEach(cookRecipe => {this.recipesToCook.push(new Recipe(cookRecipe))});
+    }
+  }
 }
 
 if (typeof module !== 'undefined') {
