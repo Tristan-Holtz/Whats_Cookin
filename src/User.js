@@ -45,15 +45,13 @@ class User {
   }
 
   loadRecipes() {
-    //load both recipe objects from storage, objectify
     const storageFavorite = JSON.parse(localStorage.getItem('favoriteRecipes'));
     const storageCook = JSON.parse(localStorage.getItem('recipesToCook'));
-    //loop through, forEach instanciate as new recipes and push into user properties 
     if (storageFavorite) {
-    storageFavorite.forEach(favorite => {this.favoriteRecipes.push(new Recipe(favorite))});
+    storageFavorite.forEach(favorite => this.favoriteRecipes.push(new Recipe(favorite)));
     } 
     if (storageCook) {
-    storageCook.forEach(cookRecipe => {this.recipesToCook.push(new Recipe(cookRecipe))});
+    storageCook.forEach(cookRecipe => this.recipesToCook.push(new Recipe(cookRecipe)));
     }
   }
 }

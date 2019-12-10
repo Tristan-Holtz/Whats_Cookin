@@ -6,8 +6,8 @@ class Recipe {
     this.image = recipe.image;
     this.ingredients = recipe.ingredients;
     this.instructions = recipe.instructions;
-    this.favorited = recipe.favorited ? recipe.favorited : false;
-    this.toCook = recipe.toCook ? recipe.toCook : false;
+    this.isFavorited = recipe.isFavorited ? recipe.isFavorited : false;
+    this.willCook = recipe.willCook ? recipe.willCook : false;
   };
 
   calculateCost() {
@@ -77,11 +77,11 @@ class Recipe {
   }
 
   toggleCook() {
-    this.toCook = !this.toCook;
+    this.willCook = !this.willCook;
   }
 
   toggleFavorite() {
-    this.favorited = !this.favorited;
+    this.isFavorited = !this.favorited;
   }
 }
 
