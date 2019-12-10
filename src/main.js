@@ -2,7 +2,8 @@ const cookbook = new Cookbook();
 const recipeSection = document.querySelector('.recipes__section');
 const favoriteBtn = document.querySelector('.nav__btn--favorites');
 const cookBtn = document.querySelector('.nav__btn--cook');
-const user = new User(1);
+const searchInp = document.querySelector('.dashboard__input--search');
+const user = new User();
 
 
 const writeCookbook = (recipes) => {
@@ -22,6 +23,13 @@ const chooseRecipe = (event) => {
 }
 
 recipeSection.addEventListener('click', chooseRecipe);
+
+const search = () => {
+  const recipes = user.searchRecipes('', searchInp.value.toLowerCase());
+  refreshRecipes(recipes);
+}
+
+searchInp.addEventListener('keyup', search);
 
 const loadRecipes = () => {
   writeCookbook(recipeData);
@@ -55,14 +63,14 @@ const removeToCook = (recipe) => {
   user.removeRecipe('recipesToCook', recipe);
 }
 
-const refreshRecipes = (type) => {
+const refreshRecipes = (recipes) => {
   recipeSection.innerHTML = '';
-  writeCookbook(user[type]);
+  writeCookbook(recipes);
   recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
 }
 
-favoriteBtn.addEventListener('click', () => refreshRecipes('favoriteRecipes'))
-cookBtn.addEventListener('click', () => refreshRecipes('recipesToCook'))
+favoriteBtn.addEventListener('click', () => refreshRecipes(user.favoriteRecipes))
+cookBtn.addEventListener('click', () => refreshRecipes(user.recipesToCook))
 
 const recipeClickHandler = (event) => {
   const classes = event.target.classList;
