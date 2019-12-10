@@ -14,15 +14,11 @@ const writeCookbook = (recipes) => {
 }
 
 const chooseRecipe = (event) => {
-  if (event.target === 'img.article__img') {
-    const recipeId = event.target.closest('.recipe__article').dataset.id;
-    const cookbookRecipe = cookbook.findRecipe(recipeId);
-    localStorage.setItem('selectedRecipe', 
-      JSON.stringify(cookbookRecipe))
-  }
+  const recipeId = event.target.closest('.recipe__article').dataset.id;
+  const cookbookRecipe = cookbook.findRecipe(recipeId);
+  localStorage.setItem('selectedRecipe', 
+    JSON.stringify(cookbookRecipe))
 }
-
-recipeSection.addEventListener('click', chooseRecipe);
 
 const search = () => {
   const recipes = user.searchRecipes('', searchInp.value.toLowerCase());
@@ -76,6 +72,7 @@ const recipeClickHandler = (event) => {
   const classes = event.target.classList;
   const recipeId = event.target.closest('.recipe__article').dataset.id;
   const cookbookRecipe = cookbook.findRecipe(recipeId);
+  chooseRecipe(event);
   if (classes.contains('article__btn--favorite')) {
     addFavorite(cookbookRecipe);
   } else if (classes.contains('recipe-toCook')) {

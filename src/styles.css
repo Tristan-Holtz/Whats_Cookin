@@ -176,7 +176,6 @@ body {
 .article__img {
   border-radius: 5px;
   cursor: pointer;
-  height: 70%;
   width: 100%;
 }
 
@@ -265,9 +264,9 @@ body {
 
 .recipe__img {
   grid-area: img;
-  background: url('https://spoonacular.com/recipeImages/595736-556x370.jpg');
+  /* background: url('https://spoonacular.com/recipeImages/595736-556x370.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .recipe--name {
