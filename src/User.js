@@ -8,11 +8,15 @@ class User {
 
   storeRecipe(type, recipe) {
     this[type].push(recipe);
+    localStorage.setItem(type,
+      JSON.stringify(this[type]));
   }
 
   removeRecipe(type, recipe) {
     const index = this[type].findIndex(userRecipe => recipe === userRecipe);
     this[type].splice(index, 1);
+    localStorage.setItem(type,
+      JSON.stringify(this[type]));
   }
 
   filterRecipe(type, tag, allRecipes) {
