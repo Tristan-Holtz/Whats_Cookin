@@ -198,6 +198,14 @@ body {
   width: 45%;
 }
 
+.article__btn--favorite {
+  background-color: white;
+}
+
+.article__btn--favorited {
+  background-color: red;
+}
+
 /********RECIPE PAGE********/
 
 .main__section {

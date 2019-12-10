@@ -21,22 +21,29 @@ const addFavorite = (recipe) => {
   event.target.classList.add('article__btn--favorited');
 }
 
-const removeFavorite = () => {
+const removeFavorite = (recipe) => {
   recipe.toggleFavorite();
-  user.Recipe('favoriteRecipes', recipe);
+  user.removeRecipe('favoriteRecipes', recipe);
   event.target.classList.add('article__btn--favorite');
   event.target.classList.remove('article__btn--favorited');
 }
 
-const recipeClickHandler = ({ target }) => {
-  const clases = target.classList;
-  const recipeId = target.closest('recipe__article').dataset.id;
+const addToCook = () => {
+  
+}
+
+const recipeClickHandler = (event) => {
+  const classes = event.target.classList;
+  const recipeId = event.target.closest('.recipe__article').dataset.id;
   const cookbookRecipe = cookbook.findRecipe(recipeId);
   if (classes.contains('article__btn--favorite')) {
     addFavorite(cookbookRecipe);
   } else if (classes.contains('article__btn--cook')) {
-    recipe.toggleCook();
+    cookbookRecipe.toggleCook();
+    addToCook(cookbookRecipe);
     user.storeRecipe('recipesToCook', cookbookRecipe);
+  } else if (classes.contains('article__btn--favorited')) {
+    removeFavorite(cookbookRecipe);
   }
 }
 
