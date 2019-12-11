@@ -109,6 +109,8 @@ const recipeClickHandler = (event) => {
     removeFavorite(cookbookRecipe);
   }
 }
+
+
 filterInp.addEventListener('change', filter);
 window.addEventListener('onload', loadRecipes());
 recipeSection.addEventListener('click', (event) => recipeClickHandler(event));
