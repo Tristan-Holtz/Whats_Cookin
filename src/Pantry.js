@@ -16,6 +16,18 @@ class Pantry {
     //if this function returns empty array you know you have all the items, otherwise it will return you what you don't have
   }
 
+  displayIngredients() {
+    const dupIng = [];
+    return this.pantry.reduce((acc, ingredient) => {
+      const matchIng = ingredientsData.find(matchIng => matchIng.id === ingredient.ingredient);
+      if (matchIng && (!dupIng.includes(matchIng.name))) {
+        dupIng.push(matchIng.name);
+        acc += `<li>${[ingredient.amount]} : ${matchIng.name}</li>`;
+      }
+      return acc;
+    }, '')
+  }
+
   useIngredients() {
     
   }

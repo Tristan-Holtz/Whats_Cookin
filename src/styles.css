@@ -333,3 +333,24 @@ body {
 .section__article--content {
 
 } */
+
+/********PANTRY PAGE********/
+.pantry {
+  background-color: white;
+  margin: 3% 8% 3% 8%;
+  padding: 4%;
+  height: 100%;
+  font-size: 2em;
+  overflow: scroll;
+}
+
+.pantry__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+.pantry__list li {
+  margin: 0% 2%;
+}
