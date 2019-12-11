@@ -280,8 +280,14 @@ body {
   padding: 4%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
+}
+
+.recipe--buttons {
+  display: flex;
+  height: 100%;
+  width: 25%;
+  flex-direction: column;
 }
 
 .recipe--name * {
@@ -300,17 +306,12 @@ body {
 .recipe--data {
   grid-area: name;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: row;
 }
 
-.recipe__button--favorite {
+.recipe__button--favorite, .recipe__button--cook {
   height: 50%;
-  width: 25%;
-}
-
-.recipe__button--cook {
-  height: 50%;
-  width: 25%;
+  width: 100%;
 }
 
 #image {
