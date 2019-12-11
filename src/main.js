@@ -1,8 +1,11 @@
 const cookbook = new Cookbook();
 const recipeSection = document.querySelector('.recipes__section');
 const favoriteBtn = document.querySelector('.nav__btn--favorites');
+const homeIcon = document.querySelector('.header__icon');
 const cookBtn = document.querySelector('.nav__btn--cook');
 const searchInp = document.querySelector('.dashboard__input--search');
+const filterInp = document.querySelector('.dashboard__input--category');
+const windowStatus = '';
 
 const setUser = () => {
   const userName = localStorage.getItem('name');
@@ -21,12 +24,17 @@ const writeCookbook = (recipes) => {
 const chooseRecipe = (event) => {
   const recipeId = event.target.closest('.recipe__article').dataset.id;
   const cookbookRecipe = cookbook.findRecipe(recipeId);
-  localStorage.setItem('selectedRecipe', 
+  localStorage.setItem('selectedRecipe',
     JSON.stringify(cookbookRecipe))
 }
 
 const search = () => {
-  const recipes = user.searchRecipes('', searchInp.value.toLowerCase());
+  const recipes = user.searchRecipes(windowStatus, searchInp.value.toLowerCase());
+  refreshRecipes(recipes);
+}
+
+const filter = () => {
+  const recipes = user.filterRecipes(windowStatus, filterInp.value);
   refreshRecipes(recipes);
 }
 
@@ -70,8 +78,18 @@ const refreshRecipes = (recipes) => {
   recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
 }
 
-favoriteBtn.addEventListener('click', () => refreshRecipes(user.favoriteRecipes))
-cookBtn.addEventListener('click', () => refreshRecipes(user.recipesToCook))
+favoriteBtn.addEventListener('click', () => {
+  windowStatus = 'favoriteRecipes';
+  refreshRecipes(user.favoriteRecipes)
+})
+cookBtn.addEventListener('click', () => {
+  windowStatus = 'recipesToCook';
+  refreshRecipes(user.recipesToCook)
+})
+homeIcon.addEventListener('click', () => {
+  windowStatus = '';
+  loadRecipes();
+})
 
 const recipeClickHandler = (event) => {
   const classes = event.target.classList;
@@ -88,6 +106,6 @@ const recipeClickHandler = (event) => {
     removeFavorite(cookbookRecipe);
   }
 }
-
+filterInp.addEventListener('change', filter);
 window.addEventListener('onload', loadRecipes());
 recipeSection.addEventListener('click', (event) => recipeClickHandler(event));
