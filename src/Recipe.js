@@ -11,14 +11,14 @@ class Recipe {
   };
 
   calculateCost() {
-    return this.ingredients.reduce((acc, recipeIngredient) => {
+    return Math.floor(this.ingredients.reduce((acc, recipeIngredient) => {
       ingredientsData.forEach((ingredient) => {
         if (ingredient.id === recipeIngredient.id) {
-          acc += ingredient.estimatedCostInCents;
+          acc += ingredient.estimatedCostInCents * recipeIngredient.quantity.amount;
         }
       })
       return acc;
-    }, 0) / 100;
+    }, 0)) / 100;
   }
 
   displayInstructions() {
@@ -44,9 +44,12 @@ class Recipe {
           <div class="recipe--name">
             <h1>${this.name.toUpperCase()}</h1>
             <h2>Tags: ${this.tags.toString().split(',').join(', ')}</h2>
+            <h2>Recipe Cost: $${this.calculateCost()}</h2>
           </div>
-          <button class="recipe__button--favorite"><img id="image" src="../img/favorite.svg" /></button>
-          <button class="recipe__button--cook"><img id="image" src="../img/cook.svg" /></button>
+          <div class="recipe--buttons">
+            <button class="recipe__button--favorite"><img id="image" src="../img/favorite.svg" /></button>
+            <button class="recipe__button--cook"><img id="image" src="../img/cook.svg" /></button>
+          </div>
         </div>
         <article class="recipe__article--full">
           <div class="article--ingredients">

@@ -3,16 +3,12 @@ const recipeSection = document.querySelector('.recipes__section');
 const favoriteBtn = document.querySelector('.nav__btn--favorites');
 const homeIcon = document.querySelector('.header__icon');
 const cookBtn = document.querySelector('.nav__btn--cook');
+const pantryBtn = document.querySelector('.nav__btn--pantry');
 const searchInp = document.querySelector('.dashboard__input--search');
 const filterInp = document.querySelector('.dashboard__input--category');
 let windowStatus = '';
 
-const setUser = () => {
-  const userName = localStorage.getItem('name');
-  const userDetails = usersData.find(user => user.name === userName);
-  return userDetails ? userDetails : usersData[0];
-}
-const user = new User(setUser());
+const user = new User(JSON.parse(localStorage.getItem('user')));
 
 const writeCookbook = (recipes) => {
   cookbook.cookbook = [];

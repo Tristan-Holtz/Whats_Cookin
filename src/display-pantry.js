@@ -1,10 +1,12 @@
-const main = document.querySelector('.main');
 const body = document.querySelector('.body');
+const pantry = document.querySelector('.pantry__list');
+const pantryHeader = document.querySelector('.pantry__header');
+const storedUser = JSON.parse(localStorage.getItem('user'))
+const user = new User(storedUser);
 
 const recipePageDisplay = () => {
-  const storedRecipe = JSON.parse(localStorage.getItem('selectedRecipe'));
-  const recipe = new Recipe(storedRecipe);
-  main.insertAdjacentHTML('beforeend', recipe.displayRecipePage());
+  pantryHeader.innerHTML = `${user.name}'s Pantry`
+  pantry.insertAdjacentHTML('beforeend', user.pantry.displayIngredients());
 }
 
 const returnPage = (event) => {
@@ -14,5 +16,4 @@ const returnPage = (event) => {
 }
 
 body.addEventListener('click', returnPage);
-
 window.addEventListener('onload', recipePageDisplay());
