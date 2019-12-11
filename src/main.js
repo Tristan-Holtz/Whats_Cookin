@@ -35,6 +35,7 @@ const search = () => {
 searchInp.addEventListener('keyup', search);
 
 const loadRecipes = () => {
+  recipeSection.innerHTML = '';
   writeCookbook(recipeData);
   user.loadRecipes();
   recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
@@ -55,13 +56,15 @@ const removeFavorite = (recipe) => {
 }
 
 const addToCook = (recipe) => {
-  event.target.classList.add('recipe-toCook');
+  event.target.classList.add('article__btn--cooking');
+  event.target.classList.remove('article__btn--cook');
   user.storeRecipe('recipesToCook', recipe);
   recipe.toggleCook();
 }
 
 const removeToCook = (recipe) => {
-  event.target.classList.remove('recipe-toCook');
+  event.target.classList.add('article__btn--cook');
+  event.target.classList.remove('article__btn--cooking');
   recipe.toggleCook();
   user.removeRecipe('recipesToCook', recipe);
 }
@@ -92,7 +95,7 @@ const recipeClickHandler = (event) => {
   chooseRecipe(event);
   if (classes.contains('article__btn--favorite')) {
     addFavorite(cookbookRecipe);
-  } else if (classes.contains('recipe-toCook')) {
+  } else if (classes.contains('article__btn--cooking')) {
     removeToCook(cookbookRecipe);
   } else if (classes.contains('article__btn--cook')) {
     addToCook(cookbookRecipe);

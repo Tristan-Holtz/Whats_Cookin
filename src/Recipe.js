@@ -22,17 +22,17 @@ class Recipe {
   }
 
   displayInstructions() {
-    return JSON.stringify(this.instructions.reduce((acc, instruction) => {
-      acc[instruction.number] = instruction.instruction
+    return this.instructions.reduce((acc, instruction) => {
+      acc += `<li>${[instruction.number]} : ${instruction.instruction}</li>`;
       return acc;
-    }, {}))
+    }, '')
   }
 
   displayIngredients() {
-    return JSON.stringify(this.ingredients.reduce((acc, ingredient) => {
-      acc[ingredient.name] = ingredient.quantity.amount + " " + ingredient.quantity.unit; 
+    return this.ingredients.reduce((acc, ingredient) => {
+      acc += `<li>${[ingredient.name]} : ${ingredient.quantity.amount} ${ingredient.quantity.unit}</li>`; 
       return acc;
-    }, {}))
+    }, '')
   }
 
   displayRecipePage() {
@@ -51,17 +51,42 @@ class Recipe {
         <article class="recipe__article--full">
           <div class="article--ingredients">
             <h2>Ingredients:</h2>
-            <p class="div__p--ingredients">${this.displayIngredients()}</p>
+            <ul class="ul--ingredients" type="circle">${this.displayIngredients()}</ul>
           </div>
           <div class="article--instructions">
             <h2>Instructions:</h2>
-            <p class="div__p--instructions">${this.displayInstructions()}</p>
+            <ul class="ul--instructions" type="circle">${this.displayInstructions()}</ul>
           </div>
         </article>
       </section>
   `;
   }
 
+  recipeClassDisplay(type, inputRecipe) {
+    //need to pass in the local storage match, match the value from local storage 
+    // debugger;
+    const storageRecipes = JSON.parse(localStorage.getItem(type));
+    if (storageRecipes) {
+      var storageMatch = storageRecipes.find((recipe) => {
+        return recipe.id === inputRecipe.id;
+      })
+    }
+    switch (type) {
+    case 'favoriteRecipes':
+      if (storageMatch ? storageMatch.isFavorited : false) {
+        return 'article__btn--favorited';
+      } else {
+        return 'article__btn--favorite';
+      }
+    case 'recipesToCook':
+      if (storageMatch ? storageMatch.willCook : false) {
+        return 'article__btn--cooking';
+      } else {
+        return 'article__btn--cook';
+      }
+    }
+  }
+  
   displayRecipeCard(recipe) {
     return `
       <article data-id="${recipe.id}" class="recipe__article">
@@ -69,8 +94,8 @@ class Recipe {
         <img class="article__img" src=${recipe.image} alt="A picture of ${recipe.name}"></a>
         <h1 class="article__h1">${recipe.name}</h1>
         <div class="article__div">
-          <button class="article__btn article__btn--favorite">Favorite</button>
-          <button class="article__btn article__btn--cook">To Cook</button>
+          <button class="article__btn ${recipe.recipeClassDisplay('favoriteRecipes', recipe)}">Favorite</button>
+          <button class="article__btn ${recipe.recipeClassDisplay('recipesToCook', recipe)}">To Cook</button>
         </div>
       </article>
       `;

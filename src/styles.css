@@ -184,6 +184,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   width: 100%;
+  height: 100%;
 }
 
 .article__h1 {
@@ -204,11 +205,11 @@ body {
   width: 45%;
 }
 
-.article__btn--favorite {
+.article__btn--favorite, .article__btn--cook {
   background-color: white;
 }
 
-.article__btn--favorited {
+.article__btn--favorited, .article__btn--cooking {
   background-color: red;
 }
 
@@ -266,7 +267,6 @@ body {
   'ins ins';
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1.5fr 2.5fr;
-  height: 80%;
 }
 
 .recipe__img {
@@ -280,6 +280,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+.recipe--name * {
+  overflow-wrap: break-word;
 }
 
 .recipe__article--full {
