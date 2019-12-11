@@ -43,7 +43,7 @@ class Recipe {
         <div class="recipe--data">
           <div class="recipe--name">
             <h1>${this.name.toUpperCase()}</h1>
-            <h2>Tags:${this.tags}</h2>
+            <h2>Tags: ${this.tags.toString().split(',').join(', ')}</h2>
           </div>
           <button class="recipe__button--favorite"><img id="image" src="../img/favorite.svg" /></button>
           <button class="recipe__button--cook"><img id="image" src="../img/cook.svg" /></button>
