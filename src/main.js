@@ -3,6 +3,7 @@ const recipeSection = document.querySelector('.recipes__section');
 const favoriteBtn = document.querySelector('.nav__btn--favorites');
 const homeIcon = document.querySelector('.header__icon');
 const cookBtn = document.querySelector('.nav__btn--cook');
+const pantryBtn = document.querySelector('.nav__btn--pantry');
 const searchInp = document.querySelector('.dashboard__input--search');
 const filterInp = document.querySelector('.dashboard__input--category');
 let windowStatus = '';
