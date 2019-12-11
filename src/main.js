@@ -1,6 +1,7 @@
 const cookbook = new Cookbook();
 const recipeSection = document.querySelector('.recipes__section');
 const favoriteBtn = document.querySelector('.nav__btn--favorites');
+const homeIcon = document.querySelector('.header__icon');
 const cookBtn = document.querySelector('.nav__btn--cook');
 const searchInp = document.querySelector('.dashboard__input--search');
 const filterInp = document.querySelector('.dashboard__input--category');
@@ -28,7 +29,7 @@ const chooseRecipe = (event) => {
 }
 
 const search = () => {
-  const recipes = user.searchRecipes('', searchInp.value.toLowerCase());
+  const recipes = user.searchRecipes(windowStatus, searchInp.value.toLowerCase());
   refreshRecipes(recipes);
 }
 
@@ -77,8 +78,18 @@ const refreshRecipes = (recipes) => {
   recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
 }
 
-favoriteBtn.addEventListener('click', () => refreshRecipes(user.favoriteRecipes))
-cookBtn.addEventListener('click', () => refreshRecipes(user.recipesToCook))
+favoriteBtn.addEventListener('click', () => {
+  windowStatus = 'favoriteRecipes';
+  refreshRecipes(user.favoriteRecipes)
+})
+cookBtn.addEventListener('click', () => {
+  windowStatus = 'recipesToCook';
+  refreshRecipes(user.recipesToCook)
+})
+homeIcon.addEventListener('click', () => {
+  windowStatus = '';
+  loadRecipes();
+})
 
 const recipeClickHandler = (event) => {
   const classes = event.target.classList;
