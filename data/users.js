@@ -1,7 +1,7 @@
 let usersData = [
   {
     "id": 1,
-    "name": "Guest",
+    "name": "Big Daddy Zuck",
     "pantry": [
       {
         "ingredient": 11477,
