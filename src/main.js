@@ -5,7 +5,7 @@ const homeIcon = document.querySelector('.header__icon');
 const cookBtn = document.querySelector('.nav__btn--cook');
 const searchInp = document.querySelector('.dashboard__input--search');
 const filterInp = document.querySelector('.dashboard__input--category');
-const windowStatus = '';
+let windowStatus = '';
 
 const setUser = () => {
   const userName = localStorage.getItem('name');
@@ -106,6 +106,8 @@ const recipeClickHandler = (event) => {
     removeFavorite(cookbookRecipe);
   }
 }
+
+
 filterInp.addEventListener('change', filter);
 window.addEventListener('onload', loadRecipes());
 recipeSection.addEventListener('click', (event) => recipeClickHandler(event));
