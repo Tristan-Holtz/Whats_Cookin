@@ -66,7 +66,7 @@ body {
 .header__icon {
   display: flex;
   height: 50px;
-  margin: 5px;
+  margin: 2.5px;
 }
 
 .header__logo {
@@ -212,11 +212,10 @@ body {
 }
 
 .article__img {
-  border: 1px solid #4267B2;
-  border-radius: 5px;
+  border: 2px solid #4267B2;
   cursor: pointer;
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 .article__h1 {
@@ -250,7 +249,7 @@ body {
 
 .main__section {
   align-self: center;
-  background-color: white;
+  background-color: #FFF;
   height: 80%;
   margin: 0 0 8% 8%;
   padding: 1%;
@@ -292,15 +291,17 @@ body {
 }
 
 .recipe {
-  background-color: white;
+  background-color: #FFF;
+  border: 5px solid #4267B2;
+  border-radius: 5px;
   display: grid;
-  margin: 3% 8% 3% 8%;
   grid-template-areas:
   'img name'
   'ins ins';
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1.5fr 2.5fr;
   height: 100%;
+  margin: 3% 8% 3% 8%;
 }
 
 .recipe__img {
@@ -308,19 +309,19 @@ body {
 }
 
 .recipe--name {
-  height: 100%;
-  width: 75%;
-  padding: 4%;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-around;
+  padding: 4%;
+  width: 75%;
 }
 
 .recipe--buttons {
   display: flex;
+  flex-direction: column;
   height: 100%;
   width: 25%;
-  flex-direction: column;
 }
 
 .recipe--name * {
@@ -328,18 +329,18 @@ body {
 }
 
 .recipe__article--full {
-  grid-area: ins;
-  overflow: scroll;
   display: flex;
   flex-direction: column;
+  grid-area: ins;
   justify-content: space-between;
+  overflow: scroll;
   margin: 5%;
 }
 
 .recipe--data {
-  grid-area: name;
   display: flex;
   flex-direction: row;
+  grid-area: name;
 }
 
 .recipe__button--favorite, .recipe__button--cook {
@@ -353,13 +354,16 @@ body {
 }
 
 /********PANTRY PAGE********/
+
 .pantry {
-  background-color: white;
-  margin: 3% 8% 3% 8%;
-  padding: 4%;
-  height: 100%;
+  background-color: #FFF;
+  border: 3px solid #4267B2;
+  border-radius: 5px;
   font-size: 2em;
+  height: 100%;
+  margin: 3% 8% 3% 8%;
   overflow: scroll;
+  padding: 4%;
 }
 
 .pantry__list {
