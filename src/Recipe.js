@@ -8,13 +8,14 @@ class Recipe {
     this.instructions = recipe.instructions;
     this.isFavorited = recipe.isFavorited ? recipe.isFavorited : false;
     this.willCook = recipe.willCook ? recipe.willCook : false;
-  };
+  }
 
   calculateCost() {
     return Math.floor(this.ingredients.reduce((acc, recipeIngredient) => {
       ingredientsData.forEach((ingredient) => {
         if (ingredient.id === recipeIngredient.id) {
-          acc += ingredient.estimatedCostInCents * recipeIngredient.quantity.amount;
+          acc += ingredient.estimatedCostInCents 
+          * recipeIngredient.quantity.amount;
         }
       })
       return acc;
@@ -30,7 +31,8 @@ class Recipe {
 
   displayIngredients() {
     return this.ingredients.reduce((acc, ingredient) => {
-      acc += `<li>${[ingredient.name]} : ${ingredient.quantity.amount} ${ingredient.quantity.unit}</li>`; 
+      acc += `<li>${[ingredient.name]} : 
+      ${ingredient.quantity.amount} ${ingredient.quantity.unit}</li>`; 
       return acc;
     }, '')
   }
@@ -39,7 +41,8 @@ class Recipe {
     return `
     <section class="recipe">
         <section class="recipe__img">
-        <img class="article__img" src=${this.image} alt="A picture of ${this.name}"></section>
+        <img class="article__img" src=${this.image} 
+        alt="A picture of ${this.name}"></section>
         <div class="recipe--data">
           <div class="recipe--name">
             <h1>${this.name.toUpperCase()}</h1>
@@ -47,18 +50,22 @@ class Recipe {
             <h2>Recipe Cost: $${this.calculateCost()}</h2>
           </div>
           <div class="recipe--buttons">
-            <button class="recipe__button--favorite"><img id="image" src="../img/favorite.svg" /></button>
-            <button class="recipe__button--cook"><img id="image" src="../img/cook.svg" /></button>
+            <button class="recipe__button--favorite">
+            <img id="image" src="../img/favorite.svg" /></button>
+            <button class="recipe__button--cook">
+            <img id="image" src="../img/cook.svg" /></button>
           </div>
         </div>
         <article class="recipe__article--full">
           <div class="article--ingredients">
             <h2>Ingredients:</h2>
-            <ul class="ul--ingredients" type="circle">${this.displayIngredients()}</ul>
+            <ul class="ul--ingredients" type="circle">
+            ${this.displayIngredients()}</ul>
           </div>
           <div class="article--instructions">
             <h2>Instructions:</h2>
-            <ul class="ul--instructions" type="circle">${this.displayInstructions()}</ul>
+            <ul class="ul--instructions" type="circle">
+            ${this.displayInstructions()}</ul>
           </div>
         </article>
       </section>
@@ -66,8 +73,6 @@ class Recipe {
   }
 
   recipeClassDisplay(type, inputRecipe) {
-    //need to pass in the local storage match, match the value from local storage 
-    // debugger;
     const storageRecipes = JSON.parse(localStorage.getItem(type));
     if (storageRecipes) {
       var storageMatch = storageRecipes.find((recipe) => {
@@ -91,14 +96,17 @@ class Recipe {
   }
   
   displayRecipeCard(recipe) {
+    const favoriteClass = recipe.recipeClassDisplay('favoriteRecipes', recipe);
+    const cookClass = recipe.recipeClassDisplay('recipesToCook', recipe);
     return `
       <article data-id="${recipe.id}" class="recipe__article">
         <a href="display-recipe.html">
-        <img class="article__img" src=${recipe.image} alt="A picture of ${recipe.name}"></a>
+        <img class="article__img" src=${recipe.image} 
+        alt="A picture of ${recipe.name}"></a>
         <h1 class="article__h1">${recipe.name}</h1>
         <div class="article__div">
-          <button class="article__btn ${recipe.recipeClassDisplay('favoriteRecipes', recipe)}">Favorite</button>
-          <button class="article__btn ${recipe.recipeClassDisplay('recipesToCook', recipe)}">To Cook</button>
+          <button class="article__btn ${favoriteClass}">Favorite</button>
+          <button class="article__btn ${cookClass}">To Cook</button>
         </div>
       </article>
       `;

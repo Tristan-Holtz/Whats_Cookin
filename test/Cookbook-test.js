@@ -20,6 +20,16 @@ describe('Cookbook', () => {
   });
 
   it('should store all recipes', () => {
+    recipeData.forEach(recipe => {
+      cookbook.cookbook.push(recipe);
+    })
     expect(cookbook.cookbook).to.deep.equal(recipeData);
   });
+
+  it('should be able to find a recipe', () => {
+    recipeData.forEach(recipe => {
+      cookbook.cookbook.push(recipe);
+    })
+    expect(cookbook.findRecipe('678353')).to.deep.equal(recipeData[1]);
+  })
 });
