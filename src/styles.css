@@ -25,6 +25,19 @@ a {
   color: #FFF;
 }
 
+html, body {
+  height: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient( rgba(200,200,200,.7), rgba(200,200,200,.7) ), url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
 /********LOGIN********/
 #login-link {
   color: black;
@@ -72,19 +85,6 @@ a {
 }
 
 /********BODY********/
-
-html, body {
-  height: 100%;
-  overflow: auto;
-  box-sizing: border-box;
-}
-
-body {
-  background-image: linear-gradient( rgba(200,200,200,.7), rgba(200,200,200,.7) ), url("../img/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
-}
 
 .login {
   height: 100%;
@@ -138,7 +138,6 @@ body {
 /********MAIN********/
 
 .main {
-  display: inline;
   height: 87%;
 }
 
@@ -352,21 +351,6 @@ body {
   height: 50px;
   width: 50px;
 }
-
-/*
-.section__div--img-name {
-  display: flex;
-  height: 50%;
-  width: 100%;
-}
-
-.article__img {
-  width: 50%;
-}
-
-.section__article--content {
-
-} */
 
 /********PANTRY PAGE********/
 .pantry {
