@@ -1,21 +1,12 @@
-const cookbook = new Cookbook();
 const recipeSection = document.querySelector('.recipes__section');
 const favoriteBtn = document.querySelector('.nav__btn--favorites');
 const homeIcon = document.querySelector('.header__icon');
 const cookBtn = document.querySelector('.nav__btn--cook');
-const pantryBtn = document.querySelector('.nav__btn--pantry');
 const searchInp = document.querySelector('.dashboard__input--search');
 const filterInp = document.querySelector('.dashboard__input--category');
-let windowStatus = '';
-
+const cookbook = new Cookbook();
 const user = new User(JSON.parse(localStorage.getItem('user')));
-
-const writeCookbook = (recipes) => {
-  cookbook.cookbook = [];
-  recipes.forEach((recipe) => {
-    cookbook.cookbook.push(new Recipe(recipe));
-  })
-}
+let windowStatus = '';
 
 const chooseRecipe = (event) => {
   const recipeId = event.target.closest('.recipe__article').dataset.id;
@@ -25,23 +16,29 @@ const chooseRecipe = (event) => {
 }
 
 const search = () => {
-  const recipes = user.searchRecipes(windowStatus, searchInp.value.toLowerCase());
+  const recipes = user.searchRecipes(windowStatus, 
+    searchInp.value.toLowerCase());
   refreshRecipes(recipes);
 }
+
+searchInp.addEventListener('keyup', search);
 
 const filter = () => {
   const recipes = user.filterRecipes(windowStatus, filterInp.value);
   refreshRecipes(recipes);
 }
 
-searchInp.addEventListener('keyup', search);
-
 const loadRecipes = () => {
   recipeSection.innerHTML = '';
-  writeCookbook(recipeData);
+  cookbook.writeCookbook(recipeData);
   user.loadRecipes();
   recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
 }
+
+homeIcon.addEventListener('click', () => {
+  windowStatus = '';
+  loadRecipes();
+})
 
 const addFavorite = (recipe) => {
   recipe.toggleFavorite();
@@ -73,7 +70,7 @@ const removeToCook = (recipe) => {
 
 const refreshRecipes = (recipes) => {
   recipeSection.innerHTML = '';
-  writeCookbook(recipes);
+  cookbook.writeCookbook(recipes);
   recipeSection.insertAdjacentHTML('beforeend', cookbook.allRecipesHTML());
 }
 
@@ -84,10 +81,6 @@ favoriteBtn.addEventListener('click', () => {
 cookBtn.addEventListener('click', () => {
   windowStatus = 'recipesToCook';
   refreshRecipes(user.recipesToCook)
-})
-homeIcon.addEventListener('click', () => {
-  windowStatus = '';
-  loadRecipes();
 })
 
 const recipeClickHandler = (event) => {
@@ -105,7 +98,6 @@ const recipeClickHandler = (event) => {
     removeFavorite(cookbookRecipe);
   }
 }
-
 
 filterInp.addEventListener('change', filter);
 window.addEventListener('onload', loadRecipes());

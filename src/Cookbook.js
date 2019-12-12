@@ -15,6 +15,13 @@ class Cookbook {
       return recipe.id.toString() === id;
     })
   }
+
+  writeCookbook(recipes) {
+    this.cookbook = [];
+    recipes.forEach(recipe => {
+      this.cookbook.push(new Recipe(recipe));
+    })
+  }
 }
 
 if (typeof module !== 'undefined') {
