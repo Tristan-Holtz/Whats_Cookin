@@ -675,7 +675,9 @@ let recipeData = [
         "instruction": "Remove the loaf from the oven and immediately remove it from the pan (careful it will be hot), and set the loaf on a cooling rack to cool. If you do not remove it right away the steam will make the crust soggy.Slice off the two ends to allow the steam to escape, or it will begin to sink in on the sides and bottom.Once cooled, it will shrink a little bit. Slice it with an electric slicer, electric knife or serrated knife. You'll get about 13-16, depending upon how thick you slice it."
       }
     ],
-    "tags": []
+    "tags": [
+      "side dish"
+    ]
   },
   {
     "name": "Ambrosia Cupcakes",
